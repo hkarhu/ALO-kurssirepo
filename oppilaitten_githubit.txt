@@ -3,6 +3,12 @@ Numeroi ja lisää oma github-handlesi alle:
 -----------------------------------------
 0. hkarhu
 1. LeeviAsikainen
+1. KurriRyka
+1. lassijar
+1. WilmaVM
+1. joojoel
+1. EL2023GH
+1. jukknevala
 1. TommiNeuvonen
 1. VilleR-GitHub
 1. KultaHarkko
