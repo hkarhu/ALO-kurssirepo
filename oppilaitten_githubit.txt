@@ -2,6 +2,7 @@
 Numeroi ja lisää oma github-handlesi alle:
 -----------------------------------------
 0. hkarhu
+1. jjjasminl
 1. NeoRineye
 2. LeeviAsikainen
 3. KurriRyka
@@ -36,3 +37,5 @@ Numeroi ja lisää oma github-handlesi alle:
 32. tomivais
 33. mrduckos
 34. netlaitinet
+24. NinaTakkunen
+24. SairainE
