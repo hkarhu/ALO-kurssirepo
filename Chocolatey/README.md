@@ -1,8 +1,8 @@
 ## [Chocolatey](https://github.com/chocolatey/choco)
 
 ### Ohjelma
-- **Nimi:** [Lisää ohjelman nimi]
-- **Kuvaus:** [Lyhyt kuvaus ohjelmasta]
+- **Nimi:** Chocolately
+- **Kuvaus:** Chocolately on windows käyttöjärjestelmälle tarkoitettu paketinhallintajärjestelmä, sen avulla voidaan asentaa, päivittää ja poistaa ohjelmia komentoriviltä automatisoidusti.
 - **Toimintaperiaate:** [Kuvaile lyhyesti miten ohjelmisto toimii]
 - **Käyttökohteet:** [Missä tilanteissa tai organisaatioissa ohjelmistoa yleisesti käytetään]
 
