@@ -1,7 +1,7 @@
 # Avoimen Lähdekoodin Ohjelmistokehitys
 
 Alla on listat, joihin opiskelijat merkkaavat ryhmät, ohjelmistot ja esistyspäivämäärätoiveet.
-Joka päivälle on mahdollista varata 8 esitystä (first come first served, pull-request järjestyksessä).
+Joka päivälle on mahdollista varata 8 esitystä. Päivämäärätoiveet lukkiutuvat "first come first served" periaatteella, pull-request järjestyksessä.
 Esityksen maksimipituus 10mins.
 
 ## Ryhmät
