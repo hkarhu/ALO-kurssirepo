@@ -9,6 +9,7 @@ Esityksen maksimipituus 10mins.
 | Ryhmä               | Ryhmän jäsenet                     |
 |---------------------|------------------------------------|
 | ryhmän nimi         | ryhmän, jäsenten, git-hub tunnarit |
+| Ryhmä 3             | roko02, Eme-desing                 |
 
 ### Esityspäivät:
 
@@ -20,4 +21,5 @@ Esityksen maksimipituus 10mins.
 | Ryhmä               | Ohjelma               | Kuvaus                                               | Esityspäivä |
 |---------------------|-----------------------|------------------------------------------------------|-------------|
 | ryhmän nimi         | ohjelman nimi ja linkki git-repon kansioon | lyhyt kuvaus                    | esityspäivän kirjain |
+| Ryhmä 3             | [Chocolatey](Chocolatey/README.md) | Paketinhallintatyökalu (package manager) Windowsille | B |
 
