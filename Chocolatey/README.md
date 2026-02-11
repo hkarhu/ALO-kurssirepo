@@ -7,7 +7,11 @@
 - **Käyttökohteet:** [Missä tilanteissa tai organisaatioissa ohjelmistoa yleisesti käytetään]
 
 ### Lisenssi
-- **Lisenssi:** [Mainitse ohjelmiston käyttämä lisenssi]
+- **Lisenssi:** Apache 2.0
+- Sallii ohjelmiston vapaan käytön, muokkauksen ja jakelun, mukaan lukien kaupallisen käytön.
+- Ei vaadi, että muokatut versiot jaettaisiin samalla lisenssillä.
+- Edellyttää alkuperäisen lisenssitekstin säilyttämisen.
+
 
 ### Projektin Aktiivisuus ja Ylläpito
 - **Historia:** [Kuinka kauan projekti on ollut olemassa? Onko sillä ollut merkittäviä virstanpylväitä?]
