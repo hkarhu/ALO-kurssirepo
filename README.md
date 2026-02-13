@@ -6,9 +6,10 @@ Esityksen maksimipituus 10mins.
 
 ## Ryhmät
 
-| Ryhmä               | Ryhmän jäsenet                     |
-|---------------------|------------------------------------|
-| ryhmän nimi         | ryhmän, jäsenten, git-hub tunnarit |
+| Ryhmä       | Ryhmän jäsenet                     |
+| ----------- | ---------------------------------- |
+| ryhmän nimi | ryhmän, jäsenten, git-hub tunnarit |
+| Emu         | AslaAsla, HenryLaine, jonttuXD     |
 
 ### Esityspäivät:
 
@@ -17,7 +18,7 @@ Esityksen maksimipituus 10mins.
 - C 10.03.2026
 - V toimitamme videoidun esityksen ennen 10.03.2026
 
-| Ryhmä               | Ohjelma               | Kuvaus                                               | Esityspäivä |
-|---------------------|-----------------------|------------------------------------------------------|-------------|
-| ryhmän nimi         | ohjelman nimi ja linkki git-repon kansioon | lyhyt kuvaus                    | esityspäivän kirjain |
-
+| Ryhmä       | Ohjelma                                    | Kuvaus                                | Esityspäivä          |
+| ----------- | ------------------------------------------ | ------------------------------------- | -------------------- |
+| ryhmän nimi | ohjelman nimi ja linkki git-repon kansioon | lyhyt kuvaus                          | esityspäivän kirjain |
+| Emu         | Dolphin [Dolphin](Dolphin/README.md)       | Emulaattori GameCube- ja Wii-peleille | C                    |
