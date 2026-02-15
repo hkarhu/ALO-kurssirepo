@@ -22,4 +22,5 @@ Esityksen maksimipituus 10mins.
 | Ryhmä               | Ohjelma               | Kuvaus                                               | Esityspäivä |
 |---------------------|-----------------------|------------------------------------------------------|-------------|
 | ryhmän nimi         | ohjelman nimi ja linkki git-repon kansioon | lyhyt kuvaus                    | esityspäivän kirjain |
+| ryhmä xyz       | OpenTTD https://github.com/OpenTTD/OpenTTD | Avoimen lähdekoodin simulaatiopeli | C |
 
