@@ -6,10 +6,18 @@
 
 ## Ohjelma
 
-**Nimi:** 
-**Kuvaus:** 
-**Toimintaperiaate:** 
-**Käyttökohteet:** 
+**Nimi:** Notepad++
+
+**Kuvaus:** Kevyt ja tehokas tekstieditori, joka tukee useita ohjelmointikieliä ja Markdownia.  
+
+**Toimintaperiaate:** Notepad++ on tiedostopohjainen editori, joka avaa tekstitiedostoja, korostaa syntaksia, tarjoaa monia työkaluja kuten etsintä/korvaus, makrot ja pluginit, ja toimii Windows-ympäristössä ilman asennusta (portable-versio).  
+
+**Käyttökohteet:**  
+- Ohjelmointikielten koodin kirjoittaminen ja muokkaaminen (C++, Java, Python, HTML, CSS, JavaScript jne.)  
+- Markdown-dokumenttien kirjoittaminen ja esikatselu  
+- Kevyet tekstinkäsittelytehtävät  
+- Logi- ja konfiguraatiotiedostojen muokkaaminen  
+- Lyhyiden skriptien ja makrojen luominen
 
 
 
