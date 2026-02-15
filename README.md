@@ -9,6 +9,8 @@ Esityksen maksimipituus 10mins.
 | Ryhmä               | Ryhmän jäsenet                     |
 |---------------------|------------------------------------|
 | ryhmän nimi         | ryhmän, jäsenten, git-hub tunnarit |
+| ryhmä xyz           | FransJuhaniHietaniva, mrduckos, jopehe |
+
 
 ### Esityspäivät:
 
