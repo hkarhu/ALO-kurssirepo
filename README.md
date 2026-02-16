@@ -6,12 +6,12 @@ Esityksen maksimipituus 10mins.
 
 ## Ryhmät
 
-| Ryhmä               | Ryhmän jäsenet                     |
-|---------------------|------------------------------------|
-| ryhmän nimi         | ryhmän, jäsenten, git-hub tunnarit |
-| Ryhmä 3             | roko02, Eme-desing                 |
-
-| NinJas         | NinaTakkunen, jjjasminl |
+| Ryhmä         | Ryhmän jäsenet                     |
+| ------------- | ---------------------------------- |
+| ryhmän nimi   | ryhmän, jäsenten, git-hub tunnarit |
+| Emu           | AslaAsla, HenryLaine, jonttuXD     |
+| Ryhmä 3       | roko02, Eme-desing                 |
+| NinJas        | NinaTakkunen, jjjasminl |
 
 ### Esityspäivät:
 
@@ -20,10 +20,11 @@ Esityksen maksimipituus 10mins.
 - C 10.03.2026
 - V toimitamme videoidun esityksen ennen 10.03.2026
 
-| Ryhmä               | Ohjelma               | Kuvaus                                               | Esityspäivä |
-|---------------------|-----------------------|------------------------------------------------------|-------------|
-| ryhmän nimi         | ohjelman nimi ja linkki git-repon kansioon | lyhyt kuvaus                    | esityspäivän kirjain |
-| Ryhmä 3             | [Chocolatey](Chocolatey/README.md) | Paketinhallintatyökalu (package manager) Windowsille | B |
+| Ryhmä       | Ohjelma                                    | Kuvaus                                | Esityspäivä          |
+| ----------- | ------------------------------------------ | ------------------------------------- | -------------------- |
+| ryhmän nimi | ohjelman nimi ja linkki git-repon kansioon | lyhyt kuvaus                          | esityspäivän kirjain |
+| Emu         | Dolphin [Dolphin](Dolphin/README.md)       | Emulaattori GameCube- ja Wii-peleille | C                    |
+| Ryhmä 3     | [Chocolatey](Chocolatey/README.md)         | Paketinhallintatyökalu (package manager) Windowsille | B |
+| NinJas      | Notepad++ [Notepad++](Notepad++/README.md) | Notepad++ on ilmainen ja avoimeen lähdekoodiin perustuva tekstieditori Windows-käyttöjärjestelmälle                    | V |
 
-| NinJas         | Notepad++ [Notepad++](Notepad++/README.md) | Notepad++ on ilmainen ja avoimeen lähdekoodiin perustuva tekstieditori Windows-käyttöjärjestelmälle                    | V |
 
