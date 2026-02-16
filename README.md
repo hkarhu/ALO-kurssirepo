@@ -6,10 +6,12 @@ Esityksen maksimipituus 10mins.
 
 ## Ryhmät
 
-| Ryhmä       | Ryhmän jäsenet                     |
-| ----------- | ---------------------------------- |
-| ryhmän nimi | ryhmän, jäsenten, git-hub tunnarit |
-| Emu         | AslaAsla, HenryLaine, jonttuXD     |
+| Ryhmä         | Ryhmän jäsenet                     |
+| ------------- | ---------------------------------- |
+| ryhmän nimi   | ryhmän, jäsenten, git-hub tunnarit |
+| Emu           | AslaAsla, HenryLaine, jonttuXD     |
+| Ryhmä 3       | roko02, Eme-desing                 |
+| NinJas        | NinaTakkunen, jjjasminl |
 
 ### Esityspäivät:
 
@@ -22,3 +24,7 @@ Esityksen maksimipituus 10mins.
 | ----------- | ------------------------------------------ | ------------------------------------- | -------------------- |
 | ryhmän nimi | ohjelman nimi ja linkki git-repon kansioon | lyhyt kuvaus                          | esityspäivän kirjain |
 | Emu         | Dolphin [Dolphin](Dolphin/README.md)       | Emulaattori GameCube- ja Wii-peleille | C                    |
+| Ryhmä 3     | [Chocolatey](Chocolatey/README.md)         | Paketinhallintatyökalu (package manager) Windowsille | B |
+| NinJas      | Notepad++ [Notepad++](Notepad++/README.md) | Notepad++ on ilmainen ja avoimeen lähdekoodiin perustuva tekstieditori Windows-käyttöjärjestelmälle                    | V |
+
+
