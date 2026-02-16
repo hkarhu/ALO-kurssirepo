@@ -16,11 +16,11 @@ Esityksen maksimipituus 10mins.
 
 ### Esityspäivät:
 
-- A 24.02.2026
-- B 03.03.2026
-- D 04.03.2026
-- C 10.03.2026
-- V toimitamme videoidun esityksen ennen 10.03.2026
+- A 24.02.2026 (10-12, TB248/F213/Zoom)
+- B 03.03.2026 (10-12, TB248/F213/Zoom)
+- D 04.03.2026 (10-12, TB248/F213/Zoom)
+- C 10.03.2026 (10-12, TB248/F213/Zoom)
+- V toimitamme videoidun esityksen viim. 10.03.2026
 
 | Ryhmä               | Ohjelma               | Kuvaus                                               | Esityspäivä |
 |---------------------|-----------------------|------------------------------------------------------|-------------|
