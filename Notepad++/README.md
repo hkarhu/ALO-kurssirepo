@@ -22,6 +22,7 @@
 
 
 ## Lisenssi
+
 - GNU GENERAL PUBLIC LICENSE Version 3
 
 **Ehdot:**
@@ -36,7 +37,10 @@
 - Ohjelmistopatentteja ei saa käyttää estämään lisenssin mukaisia oikeuksia
 - Laitteissa ei saa estää käyttäjää asentamasta muokattua versiota, jos ohjelma toimitetaan laitteen mukana.
 
+
+
 ## Projektin historia 
+
 Notepad++ perustettiin vuonna 2003 Don Ho:n toimesta Windowsille. Hän teki editorin, koska halusi kevyen ja monipuolisen tekstieditorin ohjelmointiin, joka olisi avoin lähdekoodiltaan ja helpompi käyttää kuin Windowsin oma Notepad. Ensimmäinen versio julkaistiin SourceForgessa, ja ohjelma on sen jälkeen kasvanut suosituimmaksi kevyeksi tekstieditoriksi.
 
 - **2003:** Notepad++ perustettiin Don Ho:n toimesta ja julkaistiin ensimmäinen versio SourceForgessa.  
@@ -45,6 +49,7 @@ Notepad++ perustettiin vuonna 2003 Don Ho:n toimesta Windowsille. Hän teki edit
 - **2015:** Stack Overflow Developer Survey:ssa Notepad++ oli maailman käytetyin tekstieditori (34,7 % päivittäin käyttäjistä).  
 - **2016:** Stack Overflow -kyselyssä Notepad++ oli edelleen suosittu (35,6 % käyttäjistä).  
 - **2025:** Notepad++ joutui hyökkäyksen kohteeksi, kun haitalliset toimijat manipuloivat sen päivitystoimintoa (gup.exe). Ongelmasta selvittiin siirtämällä päivityspalvelin turvallisempaan ympäristöön ja vahvistamalla päivitysten varmennusmekanismia.
+
 
 
 ## Projektin Aktiivisuus
@@ -61,7 +66,9 @@ Notepad++ on edelleen aktiivisesti ylläpidetty projekti GitHubissa:
 Ylläpidosta vastaa nykyisin laaja avoimen lähdekoodin yhteisö, jotka yhdessä vastaavat bugikorjauksista, uusista ominaisuuksista ja projektin kehityksestä.
 
 
+
 ## Osallistuminen projektiin
+
 - Erillistä lupaa osallistumiseen ei tarvitse pyytää
 - Osallistuminen tapahtuu pääasiassa:
     -   Bugiraporttien tekemisellä
@@ -106,10 +113,23 @@ Ylläpidosta vastaa nykyisin laaja avoimen lähdekoodin yhteisö, jotka yhdessä
 
 
 
-
 ## Tekninen toteutus
 
+Notepad++ on pääosin kirjoitettu **C++-kielellä**, ja se hyödyntää **Win32 API:a** Windows-ympäristössä.  
+Tekstieditorissa käytetään seuraavia välineitä ja teknologioita:
+
+- **Kielet:** C++, hieman C
+- **Kirjastot ja komponentit:** Scintilla-kirjasto (tekstin muokkaus ja syntaksikorostus), Win32 API, STL
+- **Protokollat:** Ei varsinaista verkkoprotokollaa käyttöliittymässä, mutta päivitystoiminto käyttää HTTP/HTTPS-pyyntöjä Notepad++:n version tarkistukseen ja lataukseen
+- **Työkalut ja ympäristöt:** Visual Studio tai muu C++ IDE Windowsille, GitHub versionhallintaan, GitHub Actions CI/CD-työkaluihin buildien ja testauksen automatisointiin
+- **Lisäosat:** Plugin API mahdollistaa kolmansien osapuolten lisäosien (pluginien) käytön ja kehittämisen
+
+Tämä tarkoittaa, että Notepad++:n muokkaaminen tai pluginien kehittäminen vaatii **C++-osaamista, Windows-ohjelmointitaitoja ja Git-versionhallinnan tuntemusta**.
+
+
+
 ## Ohjelmiston käyttöönotto
+
 1. Asenna tarvittavat työkalut
 	- Microsoft Visual Studio 2022 version 17.5 (C/C++ Compiler, v143 toolset for win32, x64, arm64)
 2. Kloonaa Notepad++ repository Visual Studiossa
