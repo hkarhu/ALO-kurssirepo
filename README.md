@@ -10,7 +10,9 @@ Esityksen maksimipituus 10mins.
 |---------------------|------------------------------------|
 | ryhmän nimi         | ryhmän, jäsenten, git-hub tunnarit |
 | ryhmä xyz           | FransJuhaniHietaniva, mrduckos, jopehe |
-
+| Emu                 | AslaAsla, HenryLaine, jonttuXD     |
+| Ryhmä 3             | roko02, Eme-desing                 |
+| NinJas              | NinaTakkunen, jjjasminl |
 
 ### Esityspäivät:
 
@@ -22,5 +24,7 @@ Esityksen maksimipituus 10mins.
 | Ryhmä               | Ohjelma               | Kuvaus                                               | Esityspäivä |
 |---------------------|-----------------------|------------------------------------------------------|-------------|
 | ryhmän nimi         | ohjelman nimi ja linkki git-repon kansioon | lyhyt kuvaus                    | esityspäivän kirjain |
-| ryhmä xyz       | OpenTTD https://github.com/OpenTTD/OpenTTD | Avoimen lähdekoodin simulaatiopeli | C |
-
+| ryhmä xyz           | OpenTTD https://github.com/OpenTTD/OpenTTD | Avoimen lähdekoodin simulaatiopeli | C |
+| Emu                 | Dolphin [Dolphin](Dolphin/README.md)       | Emulaattori GameCube- ja Wii-peleille | C                    |
+| Ryhmä 3             | [Chocolatey](Chocolatey/README.md)         | Paketinhallintatyökalu (package manager) Windowsille | B |
+| NinJas              | Notepad++ [Notepad++](Notepad++/README.md) | Notepad++ on ilmainen ja avoimeen lähdekoodiin perustuva tekstieditori Windows-käyttöjärjestelmälle                    | V |
