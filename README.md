@@ -11,6 +11,8 @@ Esityksen maksimipituus 10mins.
 | ryhmän nimi         | ryhmän, jäsenten, git-hub tunnarit |
 | Ryhmä 3             | roko02, Eme-desing                 |
 
+| NinJas         | NinaTakkunen, jjjasminl |
+
 ### Esityspäivät:
 
 - A 24.02.2026
@@ -22,4 +24,6 @@ Esityksen maksimipituus 10mins.
 |---------------------|-----------------------|------------------------------------------------------|-------------|
 | ryhmän nimi         | ohjelman nimi ja linkki git-repon kansioon | lyhyt kuvaus                    | esityspäivän kirjain |
 | Ryhmä 3             | [Chocolatey](Chocolatey/README.md) | Paketinhallintatyökalu (package manager) Windowsille | B |
+
+| NinJas         | Notepad++ [Notepad++](Notepad++/README.md) | Notepad++ on ilmainen ja avoimeen lähdekoodiin perustuva tekstieditori Windows-käyttöjärjestelmälle                    | V |
 
