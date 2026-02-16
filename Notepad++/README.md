@@ -36,7 +36,30 @@
 - Ohjelmistopatentteja ei saa käyttää estämään lisenssin mukaisia oikeuksia
 - Laitteissa ei saa estää käyttäjää asentamasta muokattua versiota, jos ohjelma toimitetaan laitteen mukana.
 
-## Projektin historia ja aktiivisuus
+## Projektin historia 
+Notepad++ perustettiin vuonna 2003 Don Ho:n toimesta Windowsille. Hän teki editorin, koska halusi kevyen ja monipuolisen tekstieditorin ohjelmointiin, joka olisi avoin lähdekoodiltaan ja helpompi käyttää kuin Windowsin oma Notepad. Ensimmäinen versio julkaistiin SourceForgessa, ja ohjelma on sen jälkeen kasvanut suosituimmaksi kevyeksi tekstieditoriksi.
+
+- **2003:** Notepad++ perustettiin Don Ho:n toimesta ja julkaistiin ensimmäinen versio SourceForgessa.  
+- **2011:** Lifehacker nimesi Notepad++ "The Best Programming Text Editor for Windows", ja kehui sen keveyttä ja monipuolisuutta, vaikka käyttöliittymä oli yksinkertainen.  
+- **2014:** Lifehackerin lukijat valitsivat Notepad++ "Most Popular Text Editor" -äänestyksessä, 40 % 16 294 vastaajasta valitsi sen suosikkieditorikseen.  
+- **2015:** Stack Overflow Developer Survey:ssa Notepad++ oli maailman käytetyin tekstieditori (34,7 % päivittäin käyttäjistä).  
+- **2016:** Stack Overflow -kyselyssä Notepad++ oli edelleen suosittu (35,6 % käyttäjistä).  
+- **2025:** Notepad++ joutui hyökkäyksen kohteeksi, kun haitalliset toimijat manipuloivat sen päivitystoimintoa (gup.exe). Ongelmasta selvittiin siirtämällä päivityspalvelin turvallisempaan ympäristöön ja vahvistamalla päivitysten varmennusmekanismia.
+
+
+## Projektin Aktiivisuus
+
+Notepad++ on edelleen aktiivisesti ylläpidetty projekti GitHubissa. Päivityksiä ja bugikorjauksia tehdään säännöllisesti, ja projektilla on suuri avoimen lähdekoodin yhteisö, joka osallistuu koodin kehittämiseen, issuesien ratkaisemiseen ja uusien ominaisuuksien lisäämiseen. Pääkehittäjänä toimii Don Ho yhdessä muiden aktiivisten kontribuoijien kanssa.
+
+Notepad++ on edelleen aktiivisesti ylläpidetty projekti GitHubissa:
+
+- Sillä on yli **27 000 tähteä** (stars), mikä kertoo suuresta suosiosta ja aktiivisesta käyttäjä‑ ja kehittäjäyhteisöstä.
+- Repo on haarautunut (fork) yli **5 000 kertaa**, mikä osoittaa voimakasta kokeilua ja osallistumista. 
+- Ihan viime aikoina repossa on ollut satoja **avoimia issueja (yli 2 800)** ja useita kymmeniä **avoimia pull requestejä**, mikä kertoo, että yhteisö tekee aktiivisesti korjauksia, päivityksiä ja parannuksia.  
+- Projektin päähaaraan on kertynyt tuhansia commit‑muutoksia historian aikana (6 767 commitia 16.2.2026), ja viimeisin commit on tehty hyvin hiljattain.
+
+Ylläpidosta vastaa nykyisin laaja avoimen lähdekoodin yhteisö, jotka yhdessä vastaavat bugikorjauksista, uusista ominaisuuksista ja projektin kehityksestä.
+
 
 ## Osallistuminen projektiin
 - Erillistä lupaa osallistumiseen ei tarvitse pyytää
