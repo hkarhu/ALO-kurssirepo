@@ -17,7 +17,8 @@ Esityksen maksimipituus 10mins.
 ### Esityspäivät:
 
 - A 24.02.2026
-- B 03.02.2026
+- B 03.03.2026
+- D 04.03.2026
 - C 10.03.2026
 - V toimitamme videoidun esityksen ennen 10.03.2026
 
