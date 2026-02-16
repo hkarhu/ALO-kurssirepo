@@ -82,11 +82,26 @@
 - Pikkutarkat ohjeet koodaamiseen löytyvät Notepad++:n GitHub-repositorysta [contributing.md-tiedostosta](CONTRIBUTING.md)
 
 
-## Projektin historia ja aktiivisuus
 
-## Osallistuminen projektiin
 
 ## Tekninen toteutus
 
 ## Ohjelmiston käyttöönotto
+1. Asenna tarvittavat työkalut
+	- Microsoft Visual Studio 2022 version 17.5 (C/C++ Compiler, v143 toolset for win32, x64, arm64)
+2. Kloonaa Notepad++ repository Visual Studiossa
+3. Avaa projekti
+	- Avaa koko ratkaisun (solution) build-tiedosto (notepadPlus.sln)
+4. Valitse build-asetukset
+	- Configuration: Debug tai Release
+	- Platform: x64 / Win32 / ARM64
+5. Käännä projekti
+	- Valitse build
+	- Tämä kääntää automaattisesti tarvittavat kirjastot:
+		-   notepad++.exe
+		-   libScintilla.lib
+		-   libLexilla.lib
+6. Ohjelmisto on valmis käytettäväksi
+
+- Notepad++:n GitHub-repositorysta löytyy alkuperäiset [asennusohjeet](BUILD.md)
 
