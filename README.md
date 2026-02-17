@@ -13,6 +13,7 @@ Esityksen maksimipituus 10mins.
 | Emu                 | AslaAsla, HenryLaine, jonttuXD     |
 | Ryhmä 3             | roko02, Eme-desing                 |
 | NinJas              | NinaTakkunen, jjjasminl |
+| Ryhmä Y             | jjuliaj, WilmaVM, Kultaharkko      |
 
 ### Esityspäivät:
 
@@ -29,3 +30,5 @@ Esityksen maksimipituus 10mins.
 | Emu                 | Dolphin [Dolphin](Dolphin/README.md)       | Emulaattori GameCube- ja Wii-peleille | C                    |
 | Ryhmä 3             | [Chocolatey](Chocolatey/README.md)         | Paketinhallintatyökalu (package manager) Windowsille | B |
 | NinJas              | Notepad++ [Notepad++](Notepad++/README.md) | Notepad++ on ilmainen ja avoimeen lähdekoodiin perustuva tekstieditori Windows-käyttöjärjestelmälle                    | V |
+| Ryhmä Y             | VLC mediaplayer (https://github.com/videolan/vlc) | Mediasoitinohjelmisto    | C           |
+
