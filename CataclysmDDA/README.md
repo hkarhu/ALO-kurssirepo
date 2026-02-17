@@ -4,7 +4,7 @@ Joel Myöhänen, Kaapo Mikkanen ja Toivo Juntunen
 
 ## Ohjelmiston Valinta:
 
-Valitsimme projektiksimme “Cataclysm: Dark Days Ahead” pelin, joka on vapaalla lähdekoodilla GitHubissa.
+Valitsimme projektiksimme “Cataclysm: Dark Days Ahead” pelin, joka on avoimella lähdekoodilla GitHubissa.
 Pelin tarkoitus on olla avoimen maailman selviytymisroolipeli.
 Pelissä on roguelike elementtejä, eli kun hahmosi kuolee, alkaa peli alusta.
 Koska pelin maailma kuitenkin generoidaan proseduraalisesti jokaisella pelikerralla, jokainen pelikerta on ainutlaatuinen. 
