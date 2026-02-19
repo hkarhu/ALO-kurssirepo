@@ -21,6 +21,7 @@ OpenTTD toimii ensisijaisesti **viihdekäytössä**, mutta se on peli, joten sit
 - Yhteisöllisyyden ja verkostoitumisen apuvälineenä
 
 ---
+![GPL text](res/GPL_Text_on_wood_planks)
 
 ## Lisenssi: **[GNU General Public License](https://github.com/OpenTTD/OpenTTD?tab=License-1-ov-file#readme)**
 OpenTTD on julkaistu GPL-lisenssillä, joka perustuu ajatukseen ajatukseen ohjelmiston neljästä perusvapaudesta, jotka ovat **Vapaus käyttää, tutkia, jakaa ja muokata ohjelmaa**
