@@ -1,4 +1,5 @@
 ## [Chocolatey](https://github.com/chocolatey/choco)
+![Chocolatey logo](./res/chocolatey%20logo.gif)
 
 ### Ohjelma
 - **Nimi:** Chocolatey
