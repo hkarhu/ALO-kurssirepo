@@ -29,7 +29,7 @@ Projektiin voi osallistua kuka tahansa. Osallistumistapoja ovat muun muassa:
 - Koodimuutokset (bugien korjaus, ominaisuuksien kehittäminen)
 - Dokumentaation parantaminen
 
-Roolit:
+**Roolit**
 - Kehittäjät:
   - Tekevät muutoksia koodiin
   - Lähettävät pull requesteja
@@ -74,9 +74,16 @@ Tarkemmat osallistumisohjeet löytyvät Chocolateyn GitHub-repositoriosta:
 
 
 ## Tekninen Toteutus
-- **Kielet:** [Mainitse käytetyt ohjelmointikielet]
-- **Protokollat:** [Mainitse käytetyt protokollat]
-- **Välineet:** [Mainitse tärkeimmät käytetyt työkalut ja resurssit]
+- **Kielet:**
+  - C# (70.7 %)
+  - PowerShell (29.1 %)
+- **Protokollat:**
+  - HTTP/HTTPS - pakettien lataamiseen
+  - NuGet-protokolla - pakettien jakeluun
+- **Välineet:**
+  - Git & GitHub - versionhallinta
+  - Visual Studio - kehitysympäristö
+  - .NET - suoritusalusta ja ohjelmistokehys
 
 
 ## Projekti Käyntiin
