@@ -12,6 +12,8 @@
 - Ei vaadi, että muokatut versiot jaettaisiin samalla lisenssillä.
 - Edellyttää alkuperäisen lisenssitekstin säilyttämisen.
 
+- Ohjelmasta on olemassa pro ja busines versio open sourcen lisäksi. Avoimen lähdekoodin ja pro versio on Apache 2.0 lisensoitu, pro versiolla Apache 2.0 lisäksi lisäkäyttöoikeussopimus (Additional EULA). Busines versio sen sijaan ei ole Apache 2.0 vaan sillä on oma ohjelmistolisenssisopimus (Master Software License Agreement). Kysymyksessä on kaupallinen sopimus joka sisältää rajoitetun käyttösopimuksen, 30 pv takuun ja vastuurajoituksia.
+
 
 ### Projektin Aktiivisuus ja Ylläpito
 - **Historia:** [Kuinka kauan projekti on ollut olemassa? Onko sillä ollut merkittäviä virstanpylväitä?]
