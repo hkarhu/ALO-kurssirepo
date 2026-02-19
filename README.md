@@ -6,13 +6,14 @@ Esityksen maksimipituus 10mins.
 
 ## Ryhmät
 
-| Ryhmä               | Ryhmän jäsenet                     |
-|---------------------|------------------------------------|
-| ryhmän nimi         | ryhmän, jäsenten, git-hub tunnarit |
-| ryhmä xyz           | FransJuhaniHietaniva, mrduckos, jopehe |
-| Emu                 | AslaAsla, HenryLaine, jonttuXD     |
-| Ryhmä 3             | roko02, Eme-desing                 |
-| NinJas              | NinaTakkunen, jjjasminl |
+| Ryhmä       | Ryhmän jäsenet                         |
+| ----------- | -------------------------------------- |
+| ryhmän nimi | ryhmän, jäsenten, git-hub tunnarit     |
+| ryhmä xyz   | FransJuhaniHietaniva, mrduckos, jopehe |
+| Emu         | AslaAsla, HenryLaine, jonttuXD         |
+| Ryhmä 3     | roko02, Eme-desing                     |
+| NinJas      | NinaTakkunen, jjjasminl                |
+| x           | lassijar, KukkonenJussi                |
 
 ### Esityspäivät:
 
@@ -22,10 +23,11 @@ Esityksen maksimipituus 10mins.
 - C 10.03.2026 (10-12, TB248/F213/Zoom)
 - V toimitamme videoidun esityksen viim. 10.03.2026
 
-| Ryhmä               | Ohjelma               | Kuvaus                                               | Esityspäivä |
-|---------------------|-----------------------|------------------------------------------------------|-------------|
-| ryhmän nimi         | ohjelman nimi ja linkki git-repon kansioon | lyhyt kuvaus                    | esityspäivän kirjain |
-| ryhmä xyz           | OpenTTD https://github.com/OpenTTD/OpenTTD | Avoimen lähdekoodin simulaatiopeli | C |
-| Emu                 | Dolphin [Dolphin](Dolphin/README.md)       | Emulaattori GameCube- ja Wii-peleille | C                    |
-| Ryhmä 3             | [Chocolatey](Chocolatey/README.md)         | Paketinhallintatyökalu (package manager) Windowsille | B |
-| NinJas              | Notepad++ [Notepad++](Notepad++/README.md) | Notepad++ on ilmainen ja avoimeen lähdekoodiin perustuva tekstieditori Windows-käyttöjärjestelmälle                    | V |
+| Ryhmä       | Ohjelma                                    | Kuvaus                                                                                                                                                         | Esityspäivä          |
+| ----------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| ryhmän nimi | ohjelman nimi ja linkki git-repon kansioon | lyhyt kuvaus                                                                                                                                                   | esityspäivän kirjain |
+| ryhmä xyz   | OpenTTD https://github.com/OpenTTD/OpenTTD | Avoimen lähdekoodin simulaatiopeli                                                                                                                             | C                    |
+| Emu         | Dolphin [Dolphin](Dolphin/README.md)       | Emulaattori GameCube- ja Wii-peleille                                                                                                                          | C                    |
+| Ryhmä 3     | [Chocolatey](Chocolatey/README.md)         | Paketinhallintatyökalu (package manager) Windowsille                                                                                                           | B                    |
+| NinJas      | Notepad++ [Notepad++](Notepad++/README.md) | Notepad++ on ilmainen ja avoimeen lähdekoodiin perustuva tekstieditori Windows-käyttöjärjestelmälle                                                            | V                    |
+| x           | [Brave](Brave/README.md)                   | Brave on yksityisyyttä korostava verkkoselain, jonka tarkoitus on tarjota nopea ja turvallinen selauskokemus estämällä seuranta ja mainokset oletusarvoisesti. | V                    |
