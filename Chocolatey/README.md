@@ -3,9 +3,17 @@
 
 ## Ohjelma
 - **Nimi:** Chocolatey
+  
 - **Kuvaus:** Chocolatey on Windows-käyttöjärjestelmälle tarkoitettu paketinhallintatyökalu. Sen avulla voidaan asentaa, päivittää ja poistaa ohjelmia komentoriviä hyödytäen.
-- **Toimintaperiaate:** [Kuvaile lyhyesti miten ohjelmisto toimii]
-- **Käyttökohteet:** [Missä tilanteissa tai organisaatioissa ohjelmistoa yleisesti käytetään]
+  
+- **Toimintaperiaate:**
+Chocolatey toimii komentorivipohjaisena paketinhallintajärjestelmänä. Se käyttää valmiita paketteja, jotka sisältävät asennusskriptit ja ohjelmiston tarvittavat tiedot. Käyttäjä antaa komennon (esim. choco install ohjelma), jolloin Chocolatey hakee paketin joko julkisesta tai organisaation omasta pakettivarastosta, suorittaa asennuksen automatisoidusti ja hallinnoi myöhemmin päivityksiä ja poistamista. Maksullisissa versioissa hallinta voidaan toteuttaa myös keskitetysti useille koneille.
+
+- **Käyttökohteet:**
+Chocolateyta voidaan käytetään esimerkiksi seuravanlaisissa kohteissa:
+- Kun halutaan automatisoida, helpottaa tai nopeuttaa ohjelmien asentamista, päivittämistä tai poistamista.
+- Jos halutaan asentaa uudelle koneelle valitut ohjelmat nopeasti
+- Yrityksissä, jotka tarvitsevat keskitettyä ohjelmistohallintaa ja versionhallintaa.
 
 
 ## Lisenssi
@@ -13,13 +21,23 @@
 - Sallii ohjelmiston vapaan käytön, muokkauksen ja jakelun, mukaan lukien kaupallisen käytön.
 - Ei vaadi, että muokatut versiot jaettaisiin samalla lisenssillä.
 - Edellyttää alkuperäisen lisenssitekstin säilyttämisen.
-
+- Ohjelmasta on olemassa avoimen lähdekoodin version lisäksi Pro- ja Business-versiot. Avoimen lähdekoodin versio ja Pro-versio ovat lisensoitu Apache 2.0 -lisenssillä, mutta Pro-versioon sovelletaan lisäksi erillistä lisäkäyttöoikeussopimusta (Additional EULA). Business-versio ei sen sijaan ole Apache 2.0 -lisensoitu, vaan siihen sovelletaan omaa ohjelmistolisenssisopimusta (Master Software License Agreement). Kyseessä on kaupallinen sopimus, joka sisältää rajoitetun käyttöoikeuden, 30 päivän takuun sekä vastuunrajoituksia.
 
 ## Projektin Aktiivisuus ja Ylläpito
-- **Historia:** [Kuinka kauan projekti on ollut olemassa? Onko sillä ollut merkittäviä virstanpylväitä?]
-- **Aktiivisuus:** [Kuinka usein projektissa tehdään päivityksiä ja korjauksia?]
-- **Ylläpito:** [Kuka tai ketkä ylläpitävät projektia?]
-
+- **Historia:**
+Rob Reynolds loi Chocolateyn vuonna 2011 yksinkertaisena tavoitteenaan tarjota universaali paketinhallintaohjelma Windowsille.
+-2011 chocolately luodaan
+-2013 ensimmäinen commit nykyisessä repositoryssä
+-2016 Chocolately Software perustetaan
+-2016 Chocolately for Busines (C4B) -tuote
+  
+- **Aktiivisuus:** 
+- Projektiin tehdään päivityksiä ja korjauksia lähes viikoittain. Joinakin viikkoina päivityksiä ei tule lainkaan, kun taas toisinaan committeja voi olla kymmeniä yhden viikon aikana.
+- Repository on haarautettu 932 kertaa, mikä kertoo siitä, ettei kyseessä ole aivan pieni projekti.
+- Chocolately on saanut 11,3 tuhatta tähteä GitHubissa, mikä osoittaa että projekti on suosittu ja siitä pidetään.
+  
+- **Ylläpito:**
+Projektia ylläpitää alkuperäinen kehittäjä Rob Reynolds tiimeineen. Hän on perustanut projektin ympärille kaupallisen yhtiön ja palkannut henkilöstöä tiimiinsä. Projektiin voi osallistua kuka tahansa esimerkiksi raportoimalla bugeja tai korjaamalla virheitä.
 
 ## Osallistuminen Projektiin
 ### Contribution Model
