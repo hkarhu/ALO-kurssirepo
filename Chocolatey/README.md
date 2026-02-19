@@ -87,8 +87,6 @@ Tarkemmat osallistumisohjeet löytyvät Chocolateyn GitHub-repositoriosta:
 
 
 ## Projekti Käyntiin
-**Asennus ja Käyttöönotto:** [Kuinka valittu projekti saadaan toimimaan ja kuinka se käännetään lähdekoodista? Tarvittaessa lisää vaiheittaiset ohjeet.]
-
 ### Normaali asennus
 - **Vaatimukset:**
   - .NET Framework 4.8 tai uudempi versio
