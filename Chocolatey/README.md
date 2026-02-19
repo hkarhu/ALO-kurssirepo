@@ -87,8 +87,45 @@ Tarkemmat osallistumisohjeet löytyvät Chocolateyn GitHub-repositoriosta:
 
 
 ## Projekti Käyntiin
-- **Asennus ja Käyttöönotto:** [Kuinka valittu projekti saadaan toimimaan ja kuinka se käännetään lähdekoodista? Tarvittaessa lisää vaiheittaiset ohjeet.]
+**Asennus ja Käyttöönotto:** [Kuinka valittu projekti saadaan toimimaan ja kuinka se käännetään lähdekoodista? Tarvittaessa lisää vaiheittaiset ohjeet.]
 
+### Normaali asennus
+- **Vaatimukset:**
+  - .NET Framework 4.8 tai uudempi versio
+  - PowerShell 2.0 tai uudempi versio
+  - Windows Server 2008 R2 / Windows 10 tai uudempi versio
+ 
+1. Avaa PowerShell järjestelmänvalvojan oikeuksilla
+2. Suorita:
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+3. Suorita `choco` varmiistaaksesi asennuksen onnistuminen
+   - Asennus onnistui, jos tulostuu `Chocolatey [versio]`
+
+### Asennus lähdekoodista
+- **Vaatimukset:**
+  - .NET Framework 4.8
+  - .NET Framework 4.8 Dev Pack
+  - Visual Studio 2019 or Visual Studio 2019 Build Tools
+  - .NET SDK
+ 
+1. Lataa lähdekoodi tietokoneelle:
+   ```bash
+   git clone https://github.com/chocolatey/choco.git
+   ```
+2. Siirry lähdekoodin juureen:
+   ```bash
+   cd choco
+   ```
+3. Käännä suorittamalla:
+   ```bash
+   ./build.ps1
+   ```
+4. Käännetty ohjelma löytyy polusta:
+   `code_drop\temp\_PublishedApps\choco_merged\choco.exe`
+
+Tarkemmat ohjeet projektin kääntämiseen eri käyttöjärjestelmillä (Windows, Linux ja Mac) löytyvät projektin [README.md](https://github.com/chocolatey/choco?tab=readme-ov-file#compiling--building-source)-tiedostosta. Linux- ja Mac-ympäristöissä kääntäminen vaatii Mono-ympäristön ja .NET SDK:n asennuksen. 
 
 [^1]: Triviaaleja muutoksia ovat esimerkiksi kirjoitusvirheen korjaaminen ja dokumentaatiomuutokset. 
 [^2]: https://cla-assistant.io/chocolatey/choco
