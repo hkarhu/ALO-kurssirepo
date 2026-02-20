@@ -51,8 +51,8 @@ Dokumentointi on oleellinen osa ohjelmointia ja, mutta erityisesti julkaistaviin
 #'
 #' @param a  numeerinen arvo.
 #' @param b  numeerinen arvo.
-#' @return The sum of a and b.
-#' @examples
+#' @return summa a ja b
+#' @Esimerkki
 #' add_numbers(3, 5)
 add_numbers <- function(a, b) {
   a + b
