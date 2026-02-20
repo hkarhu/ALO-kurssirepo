@@ -1,7 +1,7 @@
 
 # Mitä ovat R:n paketit?
 
-Paketit ovat valmiita laajennuksia, joiden avulla R:ssä on mahdollista hyödyntää muiden luomaa koodia, funktioita ja julkaisemaa esimerkki dataa. Kun asennat R:n ensimmäistä kertaa tietokoneellesi, samalla asennat joukon tyypillisimpiä paketteja. On olemassa organisaatioita ja kehittäjiä, jotka julkaisevat paketteja ylläpidettyihin tietovarantoihin. Kaikkein tyypillisin on CRAN:n (Comprehensive R Archive Network) tietovanto, jota ylläpitää R-yhteisö ympäri maailmaa. R-yhteisö koordinoi sitä, ja jotta paketti julkaistaisiin CRANissa, paketin täytyy läpäistä useita testejä varmistaakseen, että paketti noudattaa RAN-käytäntöjä. (GreeksForGeeks, 17.6.2025). Cranin lisäksi on kuitenkin olemassa myös muita tietovarantoja, kuten Bioconductor sekä Microsoftin MRAN. ([CRAN](https://cran.r-project.org/), [Bioconductor](https://www.bioconductor.org/), [MRAN](https://techcommunity.microsoft.com/blog/azuresqlblog/microsoft-r-application-network-retirement/3707161)). 
+Paketit ovat valmiita laajennuksia, joiden avulla R:ssä on mahdollista hyödyntää muiden luomaa koodia, funktioita ja julkaisemaa esimerkki dataa. Kun asennat R:n ensimmäistä kertaa tietokoneellesi, samalla asennat joukon tyypillisimpiä paketteja. On olemassa organisaatioita ja kehittäjiä, jotka julkaisevat paketteja ylläpidettyihin tietovarantoihin. Kaikkein tyypillisin on CRAN:n (Comprehensive R Archive Network) tietovanto, jota ylläpitää maailmalaajuinen R-yhteisö. Jotta paketti julkaistaisiin CRANissa, paketin täytyy läpäistä useita testejä, jotta varmistuu että paketti noudattaa RAN-käytäntöjä. (GreeksForGeeks, 17.6.2025). Cranin lisäksi on kuitenkin olemassa myös muita tietovarantoja, kuten Bioconductor sekä Microsoftin MRAN sekä GitHub. ([CRAN](https://cran.r-project.org/), [Bioconductor](https://www.bioconductor.org/), [MRAN](https://techcommunity.microsoft.com/blog/azuresqlblog/microsoft-r-application-network-retirement/3707161) [GitHub](https://github.com/topics/r-packages)). 
 
 Joskus ihmiset puhuvat kirjaston asentamisesta, vaikka todellisuudessa he puhuvat paketin asentamisesta. Paketti on siis tietty laajennus, joka sisältää tietynlaisia valmiita toimintoja, funktioita ja koodeja. CRAN:ssa julkaistu paketti asennetaan R:ssä yksinkertaisella komennolla:
 
@@ -24,7 +24,7 @@ Available at: https://www.geeksforgeeks.org/r-language/packages-in-r-programming
 
 
 # Kuinka luoda R:ssä oma paketti?
-R:n paketit ovat tehokas tapa jakaa R:llä luotuja toiminnallisuuksia, toimintoja ja dataa muiden hyödynnettäväksi. Paketteja voi jakaa myös githubista, mutta CRAN on yleisin tietovaranto jonne R:n paketit julkaistaan.  
+R:n paketit ovat tehokas tapa jakaa R:llä luotuja toiminnallisuuksia, toimintoja ja dataa muiden hyödynnettäväksi. Paketteja voi jakaa myös GitHubista, mutta CRAN on yleisin tietovaranto jonne R:n paketit julkaistaan.  
 Paketin luomiseksi voi käyttää pakettaja: Devtools, usethis ja roxygen2. 
 
 Saat asennettua ne: 
