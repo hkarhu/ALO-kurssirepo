@@ -9,10 +9,7 @@
 - **Toimintaperiaate:**
 Chocolatey toimii komentorivipohjaisena paketinhallintajärjestelmänä. Se käyttää valmiita paketteja, jotka sisältävät asennusskriptit ja ohjelmiston tarvittavat tiedot. Käyttäjä antaa komennon (esim. choco install ohjelma), jolloin Chocolatey hakee paketin joko julkisesta tai organisaation omasta pakettivarastosta, suorittaa asennuksen automatisoidusti ja hallinnoi myöhemmin päivityksiä ja poistamista. Maksullisissa versioissa hallinta voidaan toteuttaa myös keskitetysti useille koneille.
 Yleisimmät komennot:
-choco install
-choco upgrade
-choco uninstall
-choco list
+- choco install, choco upgrade, choco uninstall, choco list
   
 Lisää komentoja osoitteesta https://docs.chocolatey.org/en-us/choco/commands/
 
