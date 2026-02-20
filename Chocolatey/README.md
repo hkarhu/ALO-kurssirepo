@@ -8,6 +8,12 @@
   
 - **Toimintaperiaate:**
 Chocolatey toimii komentorivipohjaisena paketinhallintajärjestelmänä. Se käyttää valmiita paketteja, jotka sisältävät asennusskriptit ja ohjelmiston tarvittavat tiedot. Käyttäjä antaa komennon (esim. choco install ohjelma), jolloin Chocolatey hakee paketin joko julkisesta tai organisaation omasta pakettivarastosta, suorittaa asennuksen automatisoidusti ja hallinnoi myöhemmin päivityksiä ja poistamista. Maksullisissa versioissa hallinta voidaan toteuttaa myös keskitetysti useille koneille.
+Yleisimmät komennot:
+- choco install
+- choco upgrade
+- choco uninstall
+- choco list
+Lisää komentoja osoitteesta https://docs.chocolatey.org/en-us/choco/commands/
 
 - **Käyttökohteet:**
 Chocolateyta voidaan käytetään esimerkiksi seuravanlaisissa kohteissa:
@@ -35,6 +41,10 @@ Rob Reynolds loi Chocolateyn vuonna 2011 yksinkertaisena tavoitteenaan tarjota u
 - Projektiin tehdään päivityksiä ja korjauksia lähes viikoittain. Joinakin viikkoina päivityksiä ei tule lainkaan, kun taas toisinaan committeja voi olla kymmeniä yhden viikon aikana.
 - Repository on haarautettu 932 kertaa, mikä kertoo siitä, ettei kyseessä ole aivan pieni projekti.
 - Chocolately on saanut 11,3 tuhatta tähteä GitHubissa, mikä osoittaa että projekti on suosittu ja siitä pidetään.
+- Projektilla on 5054 committia.
+- Kehittäjiä yhteensä 118 eri henkilöä.
+- Viimeisin versio 2.6.0
+- Latauksia 371 Miljoonaa.
   
 ### Ylläpito
 Projektia ylläpitää alkuperäinen kehittäjä Rob Reynolds tiimeineen. Hän on perustanut projektin ympärille kaupallisen yhtiön ja palkannut henkilöstöä tiimiinsä. Projektiin voi osallistua kuka tahansa esimerkiksi raportoimalla bugeja tai korjaamalla virheitä.
