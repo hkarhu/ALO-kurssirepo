@@ -13,6 +13,7 @@ Esityksen maksimipituus 10mins.
 | Emu                 | AslaAsla, HenryLaine, jonttuXD     |
 | Ryhmä 3             | roko02, Eme-desing                 |
 | NinJas              | NinaTakkunen, jjjasminl |
+|Project-shiny        |jennijohansson, Joonas3, oltsule, tomivais|
 
 ### Esityspäivät:
 
@@ -29,3 +30,4 @@ Esityksen maksimipituus 10mins.
 | Emu                 | Dolphin [Dolphin](Dolphin/README.md)       | Emulaattori GameCube- ja Wii-peleille | C                    |
 | Ryhmä 3             | [Chocolatey](Chocolatey/README.md)         | Paketinhallintatyökalu (package manager) Windowsille | B |
 | NinJas              | Notepad++ [Notepad++](Notepad++/README.md) | Notepad++ on ilmainen ja avoimeen lähdekoodiin perustuva tekstieditori Windows-käyttöjärjestelmälle                    | V |
+|Project-shiny        |Shiny [Shiny](https://github.com/tomivais/ALO-kurssirepo/tree/main/project_shiny)| R:n paketti, jonka avulla tehdä helposti web-sovelluksia| D |
