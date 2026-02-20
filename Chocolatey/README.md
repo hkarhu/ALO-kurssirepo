@@ -26,8 +26,8 @@ Chocolateyta voidaan käytetään esimerkiksi seuravanlaisissa kohteissa:
 ## Projektin Aktiivisuus ja Ylläpito
 - **Historia:**
 Rob Reynolds loi Chocolateyn vuonna 2011 yksinkertaisena tavoitteenaan tarjota universaali paketinhallintaohjelma Windowsille.
--2011 chocolately luodaan
--2013 ensimmäinen commit nykyisessä repositoryssä
+-2011 Chocolately luodaan
+-2013 Ensimmäinen commit nykyisessä repositoryssä
 -2016 Chocolately Software perustetaan
 -2016 Chocolately for Busines (C4B) -tuote
   
