@@ -47,3 +47,10 @@ GPL-lisenssin rajoitukset on suunniteltu estämään ohjelmiston muuttaminen sul
     - Ohjelmiston lisenssiä ei voi muuttaa kaupalliseksi tai sellaiseksi, joka rajoittaa muiden oikeuksia käyttää koodia.
 - **Yhteensopivuus muiden lisenssien kanssa**
     - GPL-koodia ei voida yhdistää sellaiseen koodiin, jonka lisenssi kieltää lähdekoodin jakamisen.
+
+## Projektin historia
+Muistiinpanoja, muotoilen myöhemmin: Julkaistu 2004, kehitys jatkuu vielä tänäkin päivänä, alunperin kirjoitettu C:llä, uudelleenkirjoitettu C++:lla 2007+++. 56 julkaistua versiota. Viimeiset suuret päivitykset julkaistu (2023/2 versio 13)  (2024/4 versio 14) ja juuri hiljattain (2026/01 versio 15)
+## Projektin aktiivisuus
+Muistiinpanoja, muotoilen myöhemmin: 216 kehittäjää, yli 32 000 committia yhteensä, eniten committeja rubidium42 nimisellä github käyttäjällä ( yli 6 500 aikavälillä 2006-2026. )(mahdollinen kuva contribute-janasta)
+## Osallistuminen projektiin
+Muistiinpanoja, muotoilen myöhemmin: Projektiin voi osallistua kuka tahansa. Bugien raportoimiselle löytyy lomake Github sivulta ja vierestä pull requesteille oma. Suositellaan kuitenkin kysymään pelin Discord palvelimelta ennen pull requestin tekoa.
