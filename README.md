@@ -6,6 +6,7 @@ Esityksen maksimipituus 10mins.
 
 ## Ryhmät
 
+                                 |
 | Ryhmä               | Ryhmän jäsenet                     |
 |---------------------|------------------------------------|
 | ryhmän nimi         | ryhmän, jäsenten, git-hub tunnarit |
@@ -17,6 +18,8 @@ Esityksen maksimipituus 10mins.
 | CataclysmDDA        | joojoel, Sipulimies, Kaaku1 |
 | NN                  | Nuutti Nyyssönen |
 | Ryhmä Y             | jjuliaj, WilmaVM, Kultaharkko      |
+| asdf                | netlaitinet                            |
+
 
 ### Esityspäivät:
 
@@ -37,3 +40,5 @@ Esityksen maksimipituus 10mins.
 | CataclysmDDA        | Cataclysm: Dark Days Ahead [CataclysmDDA](CataclysmDDA/README.md) | Avoimen lähdekoodin selviytymisroolipeli | V |
 | NN                  | Kdenlive [Kdenlive](Kdenlive/README.md)    | Videoeditointiohjelma | V |
 | Ryhmä Y             | VLC mediaplayer (https://github.com/videolan/vlc) | Mediasoitinohjelmisto    | C           |
+| asdf                | Portage                                    | Paketinhallintatyökalu                                                                              | A                    |
+
