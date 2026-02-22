@@ -13,6 +13,7 @@ Esityksen maksimipituus 10mins.
 | Emu                 | AslaAsla, HenryLaine, jonttuXD     |
 | Ryhmä 3             | roko02, Eme-desing                 |
 | NinJas              | NinaTakkunen, jjjasminl |
+| Ryhmä 12            | Topi-M                             |
 | Project-shiny        |jennijohansson, Joonas3, oltsule, tomivais|
 | OpenWrt-ryhmä       | Jukknevala, Laszzee11,Oijoijoijoijoijoijoijoi |
 | Ryhmä with no name  | pasuunapaholainen                  |
@@ -37,6 +38,7 @@ Esityksen maksimipituus 10mins.
 | Emu                 | Dolphin [Dolphin](Dolphin/README.md)       | Emulaattori GameCube- ja Wii-peleille | C                    |
 | Ryhmä 3             | [Chocolatey](Chocolatey/README.md)         | Paketinhallintatyökalu (package manager) Windowsille | B |
 | NinJas              | Notepad++ [Notepad++](Notepad++/README.md) | Notepad++ on ilmainen ja avoimeen lähdekoodiin perustuva tekstieditori Windows-käyttöjärjestelmälle                    | V |
+| Ryhmä 12            | [OBS](https://github.com/obsproject/obs-studio) | Avoin ohjelmisto videoiden kuvaamiseen ja lähettämiseen | V |
 | Project-shiny       | Shiny [Shiny](https://github.com/tomivais/ALO-kurssirepo/tree/main/project_shiny)| R:n paketti, jonka avulla tehdä helposti web-sovelluksia| D |
 | OpenWrt-ryhmä       | OpenWRT https://github.com/openwrt/openwrt | OpenWrt on avoimen lähdekoodin reititinohjelmisto | B |
 | Ryhmä with no name  | ConvertToIt [ConvertToIt](ConvertToIt/README.md) | Erittäin universaali lokaalisti toimiva tiedostojen muuntamistyökalu | C |
