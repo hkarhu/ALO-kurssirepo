@@ -54,3 +54,77 @@ Muistiinpanoja, muotoilen myöhemmin: Julkaistu 2004, kehitys jatkuu vielä tän
 Muistiinpanoja, muotoilen myöhemmin: 216 kehittäjää, yli 32 000 committia yhteensä, eniten committeja rubidium42 nimisellä github käyttäjällä ( yli 6 500 aikavälillä 2006-2026. )(mahdollinen kuva contribute-janasta)
 ## Osallistuminen projektiin
 Muistiinpanoja, muotoilen myöhemmin: Projektiin voi osallistua kuka tahansa. Bugien raportoimiselle löytyy lomake Github sivulta ja vierestä pull requesteille oma. Suositellaan kuitenkin kysymään pelin Discord palvelimelta ennen pull requestin tekoa.
+
+---
+
+## Tekninen Toteutus
+
+### Kielet
+Pelin moottori ja pelilogiikka on kirjoitettu C++-kielellä. 
+Ohjelma käyttää myös Squirrel-kieltä, jota käytetään scriptaukseen sekä AI:n luomiseksi peliin. 
+### Protokollat 
+Ohjelma käyttää TCP/IP-protokollaa verkko-yhteyden luomiseen moninpelin toteutukseen sekä HTTP-protokollaa erillaisen sisällön, kuten grafiikan- ja ääniresurssien lataamiseen. 
+### Työkalut 
+Ohjelma voidaan rakentaa ja konfiguroida käyttämällä CMake-työkalua.  
+Github version hallintana.
+Kehitysympäristönä käytetään Visual Studio 2022 tai uudempaa versiota.
+Windows-liitymä tarvitsee vcpkg-tiedostoja, joiden avulla erilaisien pakettejen hallinta tapahtuu. 
+---
+
+## Ohjelmiston Käyttöönotto:
+OpenTTD-käyttöä varten tulee ladata Visual Studio 2022 tai uudempi. 
+Visual Studio sinun tulee hakea paketti Desktop development with C++.
+Tämän lisäksi sinun tulee hakea yksittäisiä komponentteja, joita ovat. 
+* MSVC v143 - VS 2022 C++ x64/x86 build tools
+* Windows 10 SDK **tai** Windows 11 SDK
+* C++ CMake tools for Windows
+
+
+Tämän lisäksi tulee ladata Cmake, joka on versioltaan vähintään 3.16.
+
+OpenTTD voidaan clonata [OpenTTD](https://github.com/OpenTTD/) -sivulta. 
+
+---
+#### Windows
+OpenTTD tarvitsee vcpkg-tiedostot, joiden avulla erillaisien vaatimuksien käsittely tapahtuu. Vcpkg voidaan ladata osoitteesta [vcpkg](https://github.com/microsoft/vcpkg/tree/master), ja tarkemmat ohjeet sen asennuksen löytyvät [vcpkg-ohjeet](https://github.com/Microsoft/vcpkg/blob/master/README.md). 
+Ensiksi tulee ajaa vcpkg asennus ja sen intergraatio
+```ruby
+bootstrap-vcpkg.bat  
+.\vcpkg integrate install
+```
+Tiedostoon jonne asensit vcpkg:n sinun tulee asentaa riipuvuudet ajamalla seuraavat komennot:
+```ruby
+.\vcpkg  install  breakpad:x64-windows-static  
+.\vcpkg  install  liblzma:x64-windows-static  
+.\vcpkg  install  libpng:x64-windows-static  
+.\vcpkg  install  lzo:x64-windows-static  
+.\vcpkg  install  zlib:x64-windows-static
+```
+OpenTTD-tiedostossa sinun tulee luoda build-kansion, jonne sitten luodaan CMakeillä build-kansiot seuraavilla komennoilla. (Aseta kohtaan **<location of vcpkg>**, minne vcpkg on ladattu.)
+```
+mkdir build
+cd build
+cmake.exe .. -G"Visual Studio 17 2022" -DCMAKE_TOOLCHAIN_FILE="<location of vcpkg>\vcpkg\scripts\buildsystems\vcpkg.cmake" -DVCPKG_TARGET_TRIPLET="x64-
+windows-static"
+cmake --build . --config Release
+```
+---
+#### Linux 
+
+Linuksilla voidaan asentaa vaatimukset seuraavalla komennolla. 
+```
+sudo apt install cmake g++ libsdl2-dev zlib1g-dev libpng-dev \  
+liblzma-dev liblzo2-dev libcurl4-openssl-dev \  
+libfreetype6-dev libfontconfig1-dev libharfbuzz-dev libicu-dev
+```
+Jotta prokekti voidaan rakentaa tulee ajaa seuraavat komennot OpenTTD kansiossa. 
+```
+mkdir build
+cd build
+cmake ..
+make
+```
+
+Tarkemmat ohjeet projektista löytyvät githubista: [OpenTTD](https://github.com/OpenTTD/OpenTTD)
+Tarkemmat ohjelman käännösohjeet löytyvät: [OpenTTD-Combiling](https://github.com/OpenTTD/OpenTTD/blob/master/COMPILING.md)
+
