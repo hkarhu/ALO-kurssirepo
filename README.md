@@ -14,6 +14,7 @@ Esityksen maksimipituus 10mins.
 | Emu                 | AslaAsla, HenryLaine, jonttuXD     |
 | Ryhmä 3             | roko02, Eme-desing                 |
 | NinJas              | NinaTakkunen, jjjasminl |
+| OpenWrt-ryhmä       | Jukknevala, Laszzee11,Oijoijoijoijoijoijoijoi |
 | Ryhmä with no name  | pasuunapaholainen                  |
 | CataclysmDDA        | joojoel, Sipulimies, Kaaku1 |
 | NN                  | Nuutti Nyyssönen |
@@ -36,6 +37,7 @@ Esityksen maksimipituus 10mins.
 | Emu                 | Dolphin [Dolphin](Dolphin/README.md)       | Emulaattori GameCube- ja Wii-peleille | C                    |
 | Ryhmä 3             | [Chocolatey](Chocolatey/README.md)         | Paketinhallintatyökalu (package manager) Windowsille | B |
 | NinJas              | Notepad++ [Notepad++](Notepad++/README.md) | Notepad++ on ilmainen ja avoimeen lähdekoodiin perustuva tekstieditori Windows-käyttöjärjestelmälle                    | V |
+| OpenWrt-ryhmä       | OpenWRT https://github.com/openwrt/openwrt | OpenWrt on avoimen lähdekoodin reititinohjelmisto | B |
 | Ryhmä with no name  | ConvertToIt [ConvertToIt](ConvertToIt/README.md) | Erittäin universaali lokaalisti toimiva tiedostojen muuntamistyökalu | C |
 | CataclysmDDA        | Cataclysm: Dark Days Ahead [CataclysmDDA](CataclysmDDA/README.md) | Avoimen lähdekoodin selviytymisroolipeli | V |
 | NN                  | Kdenlive [Kdenlive](Kdenlive/README.md)    | Videoeditointiohjelma | V |
