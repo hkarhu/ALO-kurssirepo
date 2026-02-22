@@ -14,6 +14,7 @@ Esityksen maksimipituus 10mins.
 | Ryhmä 3             | roko02, Eme-desing                 |
 | NinJas              | NinaTakkunen, jjjasminl |
 | NN                  | Nuutti Nyyssönen |
+| Ryhmä Y             | jjuliaj, WilmaVM, Kultaharkko      |
 
 ### Esityspäivät:
 
@@ -31,3 +32,4 @@ Esityksen maksimipituus 10mins.
 | Ryhmä 3             | [Chocolatey](Chocolatey/README.md)         | Paketinhallintatyökalu (package manager) Windowsille | B |
 | NinJas              | Notepad++ [Notepad++](Notepad++/README.md) | Notepad++ on ilmainen ja avoimeen lähdekoodiin perustuva tekstieditori Windows-käyttöjärjestelmälle                    | V |
 | NN                  | Kdenlive [Kdenlive](Kdenlive/README.md)    | Videoeditointiohjelma | V |
+| Ryhmä Y             | VLC mediaplayer (https://github.com/videolan/vlc) | Mediasoitinohjelmisto    | C           |
