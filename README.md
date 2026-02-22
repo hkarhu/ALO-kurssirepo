@@ -5,7 +5,6 @@ Joka päivälle on mahdollista varata 8 esitystä. Päivämäärätoiveet lukkiu
 Esityksen maksimipituus 10mins.
 
 ## Ryhmät
-
                                  |
 | Ryhmä               | Ryhmän jäsenet                     |
 |---------------------|------------------------------------|
@@ -20,7 +19,7 @@ Esityksen maksimipituus 10mins.
 | NN                  | Nuutti Nyyssönen |
 | Ryhmä Y             | jjuliaj, WilmaVM, Kultaharkko      |
 | asdf                | netlaitinet                            |
-
+| x           | lassijar, KukkonenJussi                |
 
 ### Esityspäivät:
 
@@ -43,4 +42,5 @@ Esityksen maksimipituus 10mins.
 | NN                  | Kdenlive [Kdenlive](Kdenlive/README.md)    | Videoeditointiohjelma | V |
 | Ryhmä Y             | VLC mediaplayer (https://github.com/videolan/vlc) | Mediasoitinohjelmisto    | C           |
 | asdf                | Portage                                    | Paketinhallintatyökalu                                                                              | A                    |
+| x                   | [Brave](Brave/README.md)                   | Brave on yksityisyyttä korostava verkkoselain, jonka tarkoitus on tarjota nopea ja turvallinen selauskokemus estämällä seuranta ja mainokset oletusarvoisesti. | V                    |
 
