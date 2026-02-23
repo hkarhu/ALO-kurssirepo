@@ -49,11 +49,21 @@ GPL-lisenssin rajoitukset on suunniteltu estämään ohjelmiston muuttaminen sul
     - GPL-koodia ei voida yhdistää sellaiseen koodiin, jonka lisenssi kieltää lähdekoodin jakamisen.
 
 ## Projektin historia
-Muistiinpanoja, muotoilen myöhemmin: Julkaistu 2004, kehitys jatkuu vielä tänäkin päivänä, alunperin kirjoitettu C:llä, uudelleenkirjoitettu C++:lla 2007+++. 56 julkaistua versiota. Viimeiset suuret päivitykset julkaistu (2023/2 versio 13)  (2024/4 versio 14) ja juuri hiljattain (2026/01 versio 15)
+- OpenTTD julkaistiin vuonna 2004 Ludvig Strigeuksen toimesta. 
+- Alunperin kirjoitettu C-kielellä ja vuodesta 2007 lähtien uudelleenkirjoitettu C++ -kielelle. 
+- 2021 lähtien pelin on ollut mahdollista ladata Steamin kautta ilmaiseksi. 
+- Viimeisin suuri päivitys on tältä vuodelta joka lisäsi OpenTTD:ään mm. uudistetun päävalikon.
+
 ## Projektin aktiivisuus
-Muistiinpanoja, muotoilen myöhemmin: 216 kehittäjää, yli 32 000 committia yhteensä, eniten committeja rubidium42 nimisellä github käyttäjällä ( yli 6 500 aikavälillä 2006-2026. )(mahdollinen kuva contribute-janasta)
+![Aktiivisuus kuvaaja](res/OPENTTD_commits.png)
+- Peliä on kehitetty aktiivisesti yli 20 vuotta vaikkakin 2010-luvulla oli vähän hiljaisempaa. 
+- Aktiivisin kehittäjä on rubidium42 niminen github käyttäjä yli 6500 commitillaan.
+- Muita aktiivisia kehittäjiä ovat PeterN, frosch123 ja TrueBrain joilla jokaisella on yli 1500 committia.
+
 ## Osallistuminen projektiin
-Muistiinpanoja, muotoilen myöhemmin: Projektiin voi osallistua kuka tahansa. Bugien raportoimiselle löytyy lomake Github sivulta ja vierestä pull requesteille oma. Suositellaan kuitenkin kysymään pelin Discord palvelimelta ennen pull requestin tekoa.
+- Projektiin osallistuminen on kaikille avointa. Bugeja voi raportoida Github sivuillaan ja samoin myös tehdä pull requesteja. Pull requsteille on kuitenkin tarkat ohjeet, joissa suositellaan kysymään asiasta ensin heidän Discord palvelimellaan.
+
+- Tarkemmat ohjeet voi lukea täältä: **[ohjeet projektin osallistumiseen](https://github.com/OpenTTD/OpenTTD/blob/master/CONTRIBUTING.md)**
 
 ---
 
