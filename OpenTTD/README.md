@@ -55,7 +55,7 @@ GPL-lisenssin rajoitukset on suunniteltu estämään ohjelmiston muuttaminen sul
 - Viimeisin suuri päivitys on tältä vuodelta joka lisäsi OpenTTD:ään mm. uudistetun päävalikon.
 
 ## Projektin aktiivisuus
-![Aktiivisuus kuvaaja](res/OPENTTD_commits.png)
+![Aktiivisuus kuvaaja](res/OpenTTD_commits.png)
 - Peliä on kehitetty aktiivisesti yli 20 vuotta vaikkakin 2010-luvulla oli vähän hiljaisempaa. 
 - Aktiivisin kehittäjä on rubidium42 niminen github käyttäjä yli 6500 commitillaan.
 - Muita aktiivisia kehittäjiä ovat PeterN, frosch123 ja TrueBrain joilla jokaisella on yli 1500 committia.
@@ -63,7 +63,7 @@ GPL-lisenssin rajoitukset on suunniteltu estämään ohjelmiston muuttaminen sul
 ## Osallistuminen projektiin
 - Projektiin osallistuminen on kaikille avointa. Bugeja voi raportoida Github sivuillaan ja samoin myös tehdä pull requesteja. Pull requsteille on kuitenkin tarkat ohjeet, joissa suositellaan kysymään asiasta ensin heidän Discord palvelimellaan.
 
-- Tarkemmat ohjeet voi lukea täältä: **[ohjeet projektin osallistumiseen](https://github.com/OpenTTD/OpenTTD/blob/master/CONTRIBUTING.md)**
+- Viralliset ja tarkemmat ohjeet voi lukea täältä: **[ohjeet](https://github.com/OpenTTD/OpenTTD/blob/master/CONTRIBUTING.md)**
 
 ---
 
