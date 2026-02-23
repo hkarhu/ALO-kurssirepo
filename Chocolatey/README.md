@@ -9,8 +9,11 @@
 - **Toimintaperiaate:**
 Chocolatey toimii komentorivipohjaisena paketinhallintajärjestelmänä. Se käyttää valmiita paketteja, jotka sisältävät asennusskriptit ja ohjelmiston tarvittavat tiedot. Käyttäjä antaa komennon (esim. choco install ohjelma), jolloin Chocolatey hakee paketin joko julkisesta tai organisaation omasta pakettivarastosta, suorittaa asennuksen automatisoidusti ja hallinnoi myöhemmin päivityksiä ja poistamista. Maksullisissa versioissa hallinta voidaan toteuttaa myös keskitetysti useille koneille.
 - Yleisimmät komennot: choco install, choco upgrade, choco uninstall, choco list
-  
-- Lisää komentoja osoitteesta https://docs.chocolatey.org/en-us/choco/commands/
+  - Lisää komentoja löytyy dokumentaatiosta: https://docs.chocolatey.org/en-us/choco/commands/
+
+- **Käyttöesimerkki**[^1]<br>
+![Chocolatey käyttöesimerkki](./res/choco_install.gif)
+
 
 - **Käyttökohteet:**
 Chocolateyta voidaan käytetään esimerkiksi seuravanlaisissa kohteissa:
@@ -69,7 +72,7 @@ Projektiin voi osallistua kuka tahansa. Osallistumistapoja ovat muun muassa:
    - Ennakkohyväksyntä: Jos haluaa ehdottaa parannusta tai korjata bugin, jota ei ole vielä listattu, tulee ennen aloittamista saada Chocolatey:n tiimiltä hyväksyntä.
    - Valmiit tehtävät: Tehtäviä, jotka on jo valmiiksi hyväksytty ja merkitty "Up For Grabs" -merkinnällä, voi tehdä ilman erillistä lupaa.
 
-**HUOM.** Jos muutos ei ole triviaali[^1] täytyy ennen muutoksen tekemistä allekirjoittaa Contributor License Agreement (CLA)[^2].
+**HUOM.** Jos muutos ei ole triviaali[^2] täytyy ennen muutoksen tekemistä allekirjoittaa Contributor License Agreement (CLA)[^3].
 
 2. Valmistele kehitysympäristö:
    - Suositellaan käyttämään Visual Studio 2019 tai uudempaa versiota
@@ -78,7 +81,7 @@ Projektiin voi osallistua kuka tahansa. Osallistumistapoja ovat muun muassa:
    - Luo uusi haara muutokselle
 
 3. Toteuta muutos
-   - Noudata projektin koodityyliohjeita[^3]
+   - Noudata projektin koodityyliohjeita[^4]
    - Lisää tai päivitä testit muutoksille
   
 4. Commit
@@ -150,6 +153,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 Tarkemmat ohjeet projektin kääntämiseen eri käyttöjärjestelmillä (Windows, Linux ja Mac) löytyvät projektin [README.md](https://github.com/chocolatey/choco?tab=readme-ov-file#compiling--building-source)-tiedostosta. Linux- ja Mac-ympäristöissä kääntäminen vaatii Mono-ympäristön ja .NET SDK:n asennuksen. 
 
-[^1]: Triviaaleja muutoksia ovat esimerkiksi kirjoitusvirheen korjaaminen ja dokumentaatiomuutokset. 
-[^2]: https://cla-assistant.io/chocolatey/choco
-[^3]: https://github.com/chocolatey/choco/blob/develop/CONTRIBUTING.md#code-format--design
+[^1]: Lähde: https://raw.githubusercontent.com/wiki/chocolatey/choco/images/gifs/choco_install.gif
+[^2]: Triviaaleja muutoksia ovat esimerkiksi kirjoitusvirheen korjaaminen ja dokumentaatiomuutokset. 
+[^3]: https://cla-assistant.io/chocolatey/choco
+[^4]: https://github.com/chocolatey/choco/blob/develop/CONTRIBUTING.md#code-format--design
