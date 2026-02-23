@@ -128,6 +128,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
 3. Suorita `choco` varmiistaaksesi asennuksen onnistuminen
    - Asennus onnistui, jos tulostuu `Chocolatey [versio]`
+   ![Chocolatey asennuksen varmistus](./res/choco_asennettu.png)
 
 ### Asennus lähdekoodista
 - **Vaatimukset:**
