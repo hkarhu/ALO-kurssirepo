@@ -53,6 +53,7 @@ GPL-lisenssin rajoitukset on suunniteltu estämään ohjelmiston muuttaminen sul
 - Alunperin kirjoitettu C-kielellä ja vuodesta 2007 lähtien uudelleenkirjoitettu C++ -kielelle. 
 - 2021 lähtien pelin on ollut mahdollista ladata Steamin kautta ilmaiseksi. 
 - Viimeisin suuri päivitys on tältä vuodelta joka lisäsi OpenTTD:ään mm. uudistetun päävalikon.
+![Kuva uudistetusta päävalikosta](res/OpenTTD_mainmenu.png)
 
 ## Projektin aktiivisuus
 ![Aktiivisuus kuvaaja](res/OpenTTD_commits.png)
