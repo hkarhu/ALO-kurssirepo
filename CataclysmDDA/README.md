@@ -104,7 +104,7 @@ Lisäksi peliin voi asentaa erilaisia äänikokoelmia, mitkä vaikuttavat ääni
 
 1. Dependencyjen asennus `sudo apt-get install libsdl2-dev libsdl2-ttf-dev libsdl2-image-dev libsdl2-mixer-dev libfreetype6-dev build-essential`
 
-2. Repon kloonaaminen `git clone https://github.com/CleverRaven/Cataclysm-DDA.git --single-branch`
+2. Repon kloonaaminen `git clone https://github.com/CleverRaven/Cataclysm-DDA.git --depth=1`
 
 3. Siirtyminen kansioon `cd Cataclysm-DDA`
 
