@@ -22,6 +22,7 @@ Esityksen maksimipituus 10mins.
 | Ryhmä Y             | jjuliaj, WilmaVM, Kultaharkko      |
 | asdf                | netlaitinet                            |
 | x           | lassijar, KukkonenJussi                |
+| ta			| VilleR-GitHub, LeeviAsikainen, timbzi	|
 
 ### Esityspäivät:
 
@@ -47,4 +48,5 @@ Esityksen maksimipituus 10mins.
 | Ryhmä Y             | VLC mediaplayer (https://github.com/videolan/vlc) | Mediasoitinohjelmisto    | C           |
 | asdf                | Portage                                    | Paketinhallintatyökalu                                                                              | A                    |
 | x                   | [Brave](Brave/README.md)                   | Brave on yksityisyyttä korostava verkkoselain, jonka tarkoitus on tarjota nopea ja turvallinen selauskokemus estämällä seuranta ja mainokset oletusarvoisesti. | V                    |
+| ta		      | Excalidraw Whiteboard [Excalidraw](https://github.com/excalidraw/excalidraw)		   | Virtuaalinen valkotaulusovellus	|	V	|
 
