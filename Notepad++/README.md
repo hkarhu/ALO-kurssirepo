@@ -65,6 +65,8 @@ Notepad++ on edelleen aktiivisesti ylläpidetty projekti GitHubissa:
 
 Ylläpidosta vastaa nykyisin laaja avoimen lähdekoodin yhteisö, jotka yhdessä vastaavat bugikorjauksista, uusista ominaisuuksista ja projektin kehityksestä.
 
+![alt text](images/tekijat.png)
+
 
 
 ## Osallistuminen projektiin
@@ -119,6 +121,9 @@ Notepad++ on pääosin kirjoitettu **C++-kielellä**, ja se hyödyntää **Win32
 Tekstieditorissa käytetään seuraavia välineitä ja teknologioita:
 
 - **Kielet:** C++, hieman C
+
+![alt text](images/kielet.png)
+
 - **Kirjastot ja komponentit:** Scintilla-kirjasto (tekstin muokkaus ja syntaksikorostus), Win32 API, STL
 - **Protokollat:** Ei varsinaista verkkoprotokollaa käyttöliittymässä, mutta päivitystoiminto käyttää HTTP/HTTPS-pyyntöjä Notepad++:n version tarkistukseen ja lataukseen
 - **Työkalut ja ympäristöt:** Visual Studio tai muu C++ IDE Windowsille, GitHub versionhallintaan, GitHub Actions CI/CD-työkaluihin buildien ja testauksen automatisointiin
@@ -145,6 +150,8 @@ Tämä tarkoittaa, että Notepad++:n muokkaaminen tai pluginien kehittäminen va
 		-   libScintilla.lib
 		-   libLexilla.lib
 6. Ohjelmisto on valmis käytettäväksi
+
+![alt text](images/ohjelmisto.png)
 
 - Notepad++:n GitHub-repositorysta löytyy alkuperäiset [asennusohjeet](BUILD.md)
 
