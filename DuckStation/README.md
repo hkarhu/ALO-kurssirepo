@@ -66,9 +66,6 @@ Lisenssi muutoksen takia projekti on yksivetoisella mallilla toimiva, eli pääk
     - Osallistumalla keskusteluihin
 
 ### Roolit
- - Kehittäjät:
-  - Tekevät bugikorjauksia, ominaisuuksia tai parantavat ohjelman vakautta
-
 - Kehittäjät:
     - Tekevät bugikorjauksia, ominaisuuksia tai parantavat ohjelman vakautta
 
@@ -123,8 +120,8 @@ alsa-lib-devel autoconf automake brotli-devel clang cmake dbus-devel egl-wayland
 
 ### macOS
 Tarvitset:
- - CMake
- - Xcode
+  - CMake
+  - Xcode
 
 1. Kloonaa repo: `git clone https://github.com/stenzek/duckstation.git`.
 2. Rakenna riippuvuudet. Tämä vie jonkin aikaa. `scripts/deps/build-dependencies-mac.sh deps`.
