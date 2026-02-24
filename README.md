@@ -23,6 +23,7 @@ Esityksen maksimipituus 10mins.
 | asdf                | netlaitinet                            |
 | x           | lassijar, KukkonenJussi                |
 | ta			| VilleR-GitHub, LeeviAsikainen, timbzi	|
+| K- Ryhmä			| Lukavarin, KurriRyka	|
 
 ### Esityspäivät:
 
@@ -49,4 +50,5 @@ Esityksen maksimipituus 10mins.
 | asdf                | Portage                                    | Paketinhallintatyökalu                                                                              | A                    |
 | x                   | [Brave](Brave/README.md)                   | Brave on yksityisyyttä korostava verkkoselain, jonka tarkoitus on tarjota nopea ja turvallinen selauskokemus estämällä seuranta ja mainokset oletusarvoisesti. | V                    |
 | ta		      | Excalidraw Whiteboard [Excalidraw](https://github.com/excalidraw/excalidraw)		   | Virtuaalinen valkotaulusovellus	|	V	|
+| K- Ryhmä            | PhET simulaatiot: https://github.com/phetsims           | Simulaatio alusta eri luonnontieteille | C |
 
