@@ -80,6 +80,7 @@ Ohjelma voidaan rakentaa ja konfiguroida käyttämällä CMake-työkalua.
 Github version hallintana.
 Kehitysympäristönä käytetään Visual Studio 2022 tai uudempaa versiota.
 Windows-liitymä tarvitsee vcpkg-tiedostoja, joiden avulla erilaisien pakettejen hallinta tapahtuu. 
+
 ---
 
 ## Ohjelmiston Käyttöönotto:
