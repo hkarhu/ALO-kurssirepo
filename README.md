@@ -9,6 +9,7 @@ Esityksen maksimipituus 10mins.
 | Ryhmä               | Ryhmän jäsenet                     |
 |---------------------|------------------------------------|
 | ryhmän nimi         | ryhmän, jäsenten, git-hub tunnarit |
+| ryhmä47             | AarniLeh, LukkaJo, SairainE        |
 | ryhmä xyz           | FransJuhaniHietaniva, mrduckos, jopehe |
 | Emu                 | AslaAsla, HenryLaine, jonttuXD     |
 | Ryhmä 3             | roko02, Eme-desing                 |
@@ -35,6 +36,7 @@ Esityksen maksimipituus 10mins.
 | Ryhmä               | Ohjelma               | Kuvaus                                               | Esityspäivä |
 |---------------------|-----------------------|------------------------------------------------------|-------------|
 | ryhmän nimi         | ohjelman nimi ja linkki git-repon kansioon | lyhyt kuvaus                    | esityspäivän kirjain |
+| ryhmä47             | VirtualBox (https://github.com/VirtualBox) | Yleiskäyttöinen virtualisointiohjelmisto             | V |
 | ryhmä xyz           | OpenTTD https://github.com/OpenTTD/OpenTTD | Avoimen lähdekoodin simulaatiopeli | C |
 | Emu                 | Dolphin [Dolphin](Dolphin/README.md)       | Emulaattori GameCube- ja Wii-peleille | C                    |
 | Ryhmä 3             | [Chocolatey](Chocolatey/README.md)         | Paketinhallintatyökalu (package manager) Windowsille | B |
