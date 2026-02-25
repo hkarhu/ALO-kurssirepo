@@ -24,6 +24,7 @@ Esityksen maksimipituus 10mins.
 | asdf                | netlaitinet                            |
 | x           | lassijar, KukkonenJussi                |
 | ta			| VilleR-GitHub, LeeviAsikainen, timbzi	|
+| JAE                 | Jarno M, Antti E, Eero V           |
 | PS1 Emu             | TheBoniestOne |
 
 ### Esityspäivät:
@@ -52,4 +53,5 @@ Esityksen maksimipituus 10mins.
 | asdf                | Portage                                    | Paketinhallintatyökalu                                                                              | A                    |
 | x                   | [Brave](Brave/README.md)                   | Brave on yksityisyyttä korostava verkkoselain, jonka tarkoitus on tarjota nopea ja turvallinen selauskokemus estämällä seuranta ja mainokset oletusarvoisesti. | V                    |
 | ta		      | Excalidraw Whiteboard [Excalidraw](https://github.com/excalidraw/excalidraw)		   | Virtuaalinen valkotaulusovellus	|	V	|
+| JAE                 | Godot ((https://github.com/godotengine/godot)) | Pelimoottori | D  |
 | PS1 Emu             | DuckStation [DuckStation](DuckStation/README.md) | Sony PlayStation konsolin emulaattori | V | 
