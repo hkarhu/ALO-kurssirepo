@@ -69,9 +69,21 @@ hienokuva tähän
   - CMake      | 0.4%
   - C          | 0.4%
   - Muut       | 0.4%
-
+    
+- **Protokollat:**
+  - Jotain jotain FFmpeg
+ 
+- **Välineet:**
+  - [MLT](https://www.mltframework.org/)
+  - [Qt 6 (6.4+)](https://www.qt.io/)
+  - [FFTW](https://fftw.org/)
+  - [FFmpeg](https://www.ffmpeg.org/)
+  - [Frei0r](https://dyne.org/software/frei0r/)
+  - [SDL](https://www.libsdl.org/)
+    - [Muut](https://shotcut.org/credits/)
 
 ## Ohjelmiston käyttöönotto
+
 
 
 
