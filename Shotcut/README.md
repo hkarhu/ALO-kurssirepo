@@ -1,6 +1,6 @@
 # Shotcut
 
-hienokuva tähän
+<img src="https://shotcut.org/assets/img/screenshots/Shotcut-18.11.18.png">
 
 ## Ohjelma
 
@@ -85,6 +85,7 @@ hienokuva tähän
 ## Ohjelmiston käyttöönotto
 
 Ohjelmiston voi asentaa suoraan [projektin verkkosivuilta](https://www.shotcut.org/download/), tai vaihtoehtoisesti voit rakentaa sen lähdekoodin kautta itse noudattamalla [ohjeita](https://github.com/mltframework/shotcut?tab=readme-ov-file#how-to-build) (Ei suositella peruskäyttäjille).
+
 
 
 
