@@ -4,7 +4,15 @@ hienokuva tähän
 
 ## Ohjelma
 
-### Ohjelman nimi
+- Ohjelman nimi
+
+- Ohjelman kuvaus
+
+- Ohjelman toimintaperiaate
+
+- Ohjelman käyttökohteet
+
+
 
 ## Lisenssi
 
@@ -19,4 +27,5 @@ hienokuva tähän
 
 
 ## Ohjelmiston käyttöönotto
+
 
