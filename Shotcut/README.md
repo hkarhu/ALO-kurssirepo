@@ -52,11 +52,18 @@ hienokuva tähän
 
 ## Osallistuminen projektiin
 
+- **Kääntäminen:** Voit auttaa kääntämään projektia muille kielille hyödyntämällä [Transifex](https://explore.transifex.com/ddennedy/shotcut/) yhteistyö verkkosivua.
+- **Muiden käyttäjien tukeminen:** Voit osallistua projektin [foorumille](https://forum.shotcut.org/).
+- **Dokumentaation kirjoittaminen:** Mikäli foorumin/projektin ylläpito kokee sinut luotettavaksi henkilöksi, voit kirjoittaa (tai ehkä jopa kääntää) [foorumeilla](https://forum.shotcut.org/) myös dokumentaatiota.
+- **Vikailmoitus:** Voit projektin GitHub sivun "[Issues](https://github.com/mltframework/shotcut/issues)" kohdasta tehdä vikailmoituksia ohjelmistosta.
+- **Presetin/Filetrin luonti:** Voit jakaa tällaisen [Foorumeilla](https://forum.shotcut.org/) tai tekemällä [Pull requestin](https://github.com/mltframework/shotcut/pulls)
+- **Koodin kirjoittaminen:** Voit myös tuottaa koodia ohjelmistolle GitHubin [pull requesteja](https://github.com/mltframework/shotcut/pulls) hyödyntämällä. Ohjelmoinnille tarjotaan tukea SDK sekä dokumentaatio muodossa, mutta muutoksia saa tehdä myös omin tavoin.
 
 ## Tekninen toteutus
 
 
 ## Ohjelmiston käyttöönotto
+
 
 
 
