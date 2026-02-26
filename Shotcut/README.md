@@ -8,9 +8,9 @@
 
 - **Ohjelman kuvaus:** Shotcut on ilmainen avoimen lähdekoodin ääni- ja kuvankäsittelyohjelma usealle alustalle.
 
-- **Ohjelman toimintaperiaate:** 
+- **Ohjelman toimintaperiaate:** Ohjelmiston toiminta perustuu non-linear editing muotoon offline medianmuokkauksesta. Ohjelmisto käyttää aikajanaa, mihin voi sisältyä useita raitoja, mitkä voivat koostua eri formaateista.
 
-- **Ohjelman käyttökohteet:** 
+- **Ohjelman käyttökohteet:** Kuka tahansa, joka haluaa ilmaisen/mieluisen medianmuokkaustyökalun.
 
 
 
@@ -85,6 +85,7 @@
 ## Ohjelmiston käyttöönotto
 
 Ohjelmiston voi asentaa suoraan [projektin verkkosivuilta](https://www.shotcut.org/download/), tai vaihtoehtoisesti voit rakentaa sen lähdekoodin kautta itse noudattamalla [ohjeita](https://github.com/mltframework/shotcut?tab=readme-ov-file#how-to-build) (Ei suositella peruskäyttäjille).
+
 
 
 
