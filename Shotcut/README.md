@@ -16,7 +16,12 @@ hienokuva tähän
 
 ## Lisenssi
 
-Projektin lisenssinä toimii [GPL-3.0](https://github.com/mltframework/shotcut?tab=GPL-3.0-1-ov-file#readme).
+- Projektin lisenssinä toimii [GPL-3.0](https://github.com/mltframework/shotcut?tab=GPL-3.0-1-ov-file#readme).
+  - **Sallitaan:**
+    - Listan sisäsen listan sisänen lista?
+  - **Kielletään:**
+  - **Velvoitetaan:**
+
 
 
 ## Historia ja aktiivisuus
@@ -29,6 +34,7 @@ Projektin lisenssinä toimii [GPL-3.0](https://github.com/mltframework/shotcut?t
 
 
 ## Ohjelmiston käyttöönotto
+
 
 
 
