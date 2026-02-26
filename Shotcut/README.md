@@ -4,17 +4,19 @@ hienokuva tähän
 
 ## Ohjelma
 
-- Ohjelman nimi
+- **Ohjelman nimi:** Shotcut
 
-- Ohjelman kuvaus
+- **Ohjelman kuvaus:** Shotcut on ilmainen avoimen lähdekoodin ääni- ja kuvankäsittelyohjelma usealle alustalle.
 
-- Ohjelman toimintaperiaate
+- **Ohjelman toimintaperiaate:** 
 
-- Ohjelman käyttökohteet
+- **Ohjelman käyttökohteet:** 
 
 
 
 ## Lisenssi
+
+Projektin lisenssinä toimii [GPL-3.0](https://github.com/mltframework/shotcut?tab=GPL-3.0-1-ov-file#readme).
 
 
 ## Historia ja aktiivisuus
@@ -27,5 +29,6 @@ hienokuva tähän
 
 
 ## Ohjelmiston käyttöönotto
+
 
 
