@@ -61,8 +61,18 @@ hienokuva tähän
 
 ## Tekninen toteutus
 
+- **Kielet:**
+  - C++        | 53.9%
+  - QML        | 35.3%
+  - JavaScript | 7.5%
+  - Shell      | 2.1%
+  - CMake      | 0.4%
+  - C          | 0.4%
+  - Muut       | 0.4%
+
 
 ## Ohjelmiston käyttöönotto
+
 
 
 
