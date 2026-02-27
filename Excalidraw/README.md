@@ -1,8 +1,9 @@
 # Excalidraw – An open source virtual hand-drawn style whiteboard.
 
 <p align="center">
-  <img src="image-2.png" width="900">
+  <img src=src="https://github.com/user-attachments/assets/8056ab33-5138-4ace-8a24-22969e3992e7" width="900">
 </p>
+
 
 <mark>TODO - Timi</mark>
 
@@ -45,7 +46,7 @@ Sovellus tukee myös reaaliaikaista yhteistyötä, jolloin useampi käyttäjä v
 
 </div>
 
-<img src="image.png" width="300">
+<img src="https://github.com/user-attachments/assets/5d26e958-fdfb-49e4-acad-360aba2d847d" width="300">
 
 </div>
 
