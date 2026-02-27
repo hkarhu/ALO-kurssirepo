@@ -1,9 +1,6 @@
 # Excalidraw – An open source virtual hand-drawn style whiteboard.
 
-<p align="center">
-  <img src=src="https://github.com/user-attachments/assets/8056ab33-5138-4ace-8a24-22969e3992e7" width="900">
-</p>
-
+<img src=src="https://github.com/user-attachments/assets/8056ab33-5138-4ace-8a24-22969e3992e7" width="900">
 
 <mark>TODO - Timi</mark>
 
