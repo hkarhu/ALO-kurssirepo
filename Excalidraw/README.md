@@ -32,10 +32,6 @@ Sovellus tukee myös reaaliaikaista yhteistyötä, jolloin useampi käyttäjä v
 
 # Tekninen toteutus
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
-
-<div style="flex: 1;">
-
 ### Kielet
 
 - TypeScript  
@@ -43,14 +39,7 @@ Sovellus tukee myös reaaliaikaista yhteistyötä, jolloin useampi käyttäjä v
 - HTML  
 - CSS  
 
-</div>
-
-<img src="https://github.com/user-attachments/assets/5d26e958-fdfb-49e4-acad-360aba2d847d" width="300">
-
-</div>
-
-
-
+<img src="https://github.com/user-attachments/assets/5d26e958-fdfb-49e4-acad-360aba2d847d">
 
 Excalidraw on toteutettu pääosin TypeScriptillä. TypeScript on JavaScriptiin perustuva ohjelmointikieli, joka lisää siihen staattisen tyypityksen, eli mahdollisuuden määrittää muuttujille ja funktioille etukäteen niiden tyypit. 
 
