@@ -158,3 +158,109 @@ usethis::use_github()
 Lähde ohjeelle: 
 https://www.datanovia.com/learn/programming/r/advanced/developing-and-publishing-r-packages.html
 
+# Tekninen toteutus
+Shiny on pääasiassa R-kielellä toteutettu web-sovelluskehys, mutta sen toteutuksessa hyödynnetään useita web-teknologioita.
+
+
+### Kielet
+
+- **R** – sovelluslogiikka ja palvelinpuolen laskenta
+
+- **JavaScript & TypeScript** – selaimen toiminnallisuus 
+
+- **HTML** – käyttöliittymän rakenne
+
+- **CSS & SCSS** – ulkoasu ja tyylien määrittely
+
+### Kirjastot ja työkalut
+
+- **Bootstrap**- käyttöliittymäkomponentit ja responsiivinen rakenne
+- **jQuery** - selaintapahtumien käsittely ja käyttöliittymän päivitykset
+- **httpuv** (R-paketti) – HTTP- ja WebSocket-palvelin R-ympäristössä
+- **Shiny Server / shinyapps.io** – sovelluksen julkaisuympäristöt
+
+### Protokollat
+
+- **HTTP/HTTPS** – sovelluksen lataaminen selaimeen 
+- **WebSocket** – reaaliaikainen tiedonsiirto selaimen ja R-session välillä
+
+# Miten interaktiivinen verkkosovellus toteutetaan?
+
+Shiny muuttaa R-koodin interaktiiviseksi web-sovellukseksi, joka toimii selaimessa.
+
+Shiny koostuu kahdesta pääosasta:
+
+### 1.	Käyttöliittymä
+
+- määrittelee miltä sovellus näyttää (napit, valikot, kuviot)
+
+### 2. Server
+
+- R-koodi
+- sisältää laskennan ja datan käsittelyn
+- reagoi käyttäjän syötteisiin
+
+### Toiminta käytännössä
+
+1. R suorittaa sovellusta palvelimella
+
+   → Kun Shiny-app käynnistetään, R-prosessi alkaa ajaa sovelluksen server-logiikkaa.
+
+2. UI muutetaan verkkosivuksi
+   
+   → R:ssä määritelty käyttöliittymä renderöidään HTML-muotoon ja lähetetään selaimeen.
+
+3. Selain ja R pitävät jatkuvaa yhteyttä
+   
+   → Selain muodostaa pysyvän (WebSocket) yhteyden palvelimeen. Tämä mahdollistaa reaaliaikaisen viestinnän ilman sivun uudelleenlatausta.
+
+4. Käyttäjän toiminta laukaisee päivityksen
+   
+   → Kun käyttäjä muuttaa syötettä (esim. liukusäädintä), tieto lähetetään R:lle.
+
+5. Reaktiivinen laskenta
+   
+   → Shiny tarkistaa, mitkä osat sovelluksesta riippuvat muuttuneesta syötteestä, ja laskee uudelleen vain ne osat.
+
+6. Tulokset päivitetään selaimeen
+   
+   → Päivitetty sisältö lähetetään takaisin selaimeen ja näkymä päivittyy ilman sivun uudelleenlatausta.
+
+# Missä Shiny-sovellus voidaan julkaista?
+
+### shinyapps.io
+
+shinyapps.io on Positin tarjoama pilvipalvelu Shiny-sovellusten julkaisuun.
+
+Palvelussa on ilmainen käyttöpaketti rajatulla aktiiviajalla sekä useita maksullisia tasoja, jotka tarjoavat enemmän resursseja, suorituskykyä ja ominaisuuksia.
+
+- Sovellus ajetaan Positin pilvipalvelimilla
+
+- Jokaiselle käyttäjälle luodaan oma R-sessio
+
+- Sovellus saa julkisen verkkolinkin
+
+### Shiny Server
+
+Shiny Server on avoimen lähdekoodin ohjelmisto, joka asennetaan omalle palvelimelle Shiny-sovellusten ajamiseen.
+
+- Ajaa Shiny-sovelluksia palvelimella
+
+- Hallinnoi käyttäjäkohtaisia R-sessioita
+
+- Mahdollisuus omaan infrastruktuuriin
+
+- Saatavilla open source -versiona ja maksullisena Pro-versiona
+
+
+### Teknisen toteutuksen lähteet 
+
+Shiny GitHub — https://github.com/rstudio/shiny 
+
+Shiny documentation (Posit) — https://shiny.posit.co/
+
+JavaScript for R: Bidirectional Communication — https://book.javascript-for-r.com/shiny-intro
+
+
+
+
