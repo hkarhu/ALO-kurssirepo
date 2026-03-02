@@ -1,5 +1,31 @@
 # [Dolphin](https://github.com/dolphin-emu/dolphin)
 
+## Ohjelmiston valinta
+
+### Ohjelma
+Dolphin on ilmainen emulaattori, jolla voi pelata Nintendon Gamecube ja Wii-konsoleiden eri pelejä.
+Emulaattorin suurin etu aluksi oli sen Gamecube pelien emulointi joita ei vielä muilla ohjelmilla saanut.
+Emulaattori on myös yhteensopiva monella alustalla kuten Androidilla, Linuxilla, MacOS:lla ja Windowsilla.
+
+### Toiminta
+Dolphin toimii kuten kaikki normaalit emulaattorit.
+Emulaattori matkii halutun konsolin toimintaa ja ajaa pelit erillisenä tiedostona niin että tietokone ymmärtää ne.
+Dolphin tarjoaa myös erilaisia ominaisuuksia kuten pelien grafiikan parantavia asetuksia, ohjaimensäätö asetuksia ja suorituskykyyn liittyviä asetuksia.
+
+### Missä käytössä
+Dolphinia käytetään yleensä:
+- Pelien emulointiin ja pelaamiseen
+- Vanhojen pelien testaamiseen
+- Voi käyttää myös esim emulaattorin tutkimisessa ohjelmistokehityksessä
+- Käyttäjinä yleensä ihan tavalliset ihmiset, sillä ohjelma on saatavilla useille käyttöjärjestelmille
+
+<img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/e1538182-1bf6-4aa0-b1d6-7c1eeff4c8e4" />
+
+
+
+
+---
+
 ## Projektin Historia ja Aktiivisuus
 
 ### Projektin historia
