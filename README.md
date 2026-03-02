@@ -19,7 +19,7 @@ Esityksen maksimipituus 10mins.
 | OpenWrt-ryhmä       | Jukknevala, Laszzee11,Oijoijoijoijoijoijoijoi |
 | Ryhmä with no name  | pasuunapaholainen                  |
 | CataclysmDDA        | joojoel, Sipulimies, Kaaku1 |
-| NN                  | Nuutti Nyyssönen |
+| NN                  | nuuttinyyssonen |
 | Ryhmä Y             | jjuliaj, WilmaVM, Kultaharkko      |
 | asdf                | netlaitinet                            |
 | x           | lassijar, KukkonenJussi                |
