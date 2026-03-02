@@ -84,17 +84,25 @@ Windows-liitymä tarvitsee vcpkg-tiedostoja, joiden avulla erilaisien pakettejen
 ---
 
 ## Ohjelmiston Käyttöönotto:
-OpenTTD-käyttöä varten tulee ladata Visual Studio 2022 tai uudempi. 
-Visual Studio sinun tulee hakea paketti Desktop development with C++.
+OpenTTD on ilmaiseksi ladattavissa Steam-verkkokaupasta **[steam](https://store.steampowered.com/app/1536610/OpenTTD/)**, 
+Microsoft-kaupasta **[mikrosoft](https://apps.microsoft.com/detail/9ncjg5rvrr1c?hl=en-US&gl=FI)** ja 
+Gog pelikaupasta **[gog](https://www.gog.com/en/game/openttd)**.
+
+OpenTDD voidaan myös ottaa käyttöön lataamalla tiedostot githubista ja rakentamalla ohjelman itse. 
+
+OpenTTD-käyttöä varten tulee ladata Visual Studio 2022 tai uudempi versio. 
+Visual Studio sinun tulee hakea paketti **Desktop development with C++**.
 Tämän lisäksi sinun tulee hakea yksittäisiä komponentteja, joita ovat. 
 * MSVC v143 - VS 2022 C++ x64/x86 build tools
 * Windows 10 SDK **tai** Windows 11 SDK
 * C++ CMake tools for Windows
 
 
-Tämän lisäksi tulee ladata Cmake, joka on versioltaan vähintään 3.16.
+Tämän lisäksi tulee ladata Cmake, joka on oltava versioltaan vähintään 3.16.
 
 OpenTTD voidaan clonata [OpenTTD](https://github.com/OpenTTD/) -sivulta. 
+
+Tämän lisäksi OpenTTD tarvitsee grafiikat, musiikit ja äänet, jotka tulee ladata erikseen ja asettaa OpenTTD:n **baseset/**-kansioon. 
 
 ---
 #### Windows
@@ -129,7 +137,7 @@ sudo apt install cmake g++ libsdl2-dev zlib1g-dev libpng-dev \
 liblzma-dev liblzo2-dev libcurl4-openssl-dev \  
 libfreetype6-dev libfontconfig1-dev libharfbuzz-dev libicu-dev
 ```
-Jotta prokekti voidaan rakentaa tulee ajaa seuraavat komennot OpenTTD kansiossa. 
+Jotta prokekti voidaan rakentaa, tulee ajaa seuraavat komennot OpenTTD-kansiossa. 
 ```
 mkdir build
 cd build
