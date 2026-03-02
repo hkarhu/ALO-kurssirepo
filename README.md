@@ -27,6 +27,7 @@ Esityksen maksimipituus 10mins.
 | K- Ryhmä			| Lukavarin, KurriRyka	|
 | JAE                 | Jarno M, Antti E, Eero V           |
 | PS1 Emu             | TheBoniestOne |
+| 34                  | opa-git, LillaNudde     |
 
 ### Esityspäivät:
 
@@ -57,3 +58,4 @@ Esityksen maksimipituus 10mins.
 | K- Ryhmä            | PhET simulaatiot: https://github.com/phetsims           | Simulaatio alusta eri luonnontieteille | C |
 | JAE                 | Godot ((https://github.com/godotengine/godot)) | Pelimoottori | D  |
 | PS1 Emu             | DuckStation [DuckStation](DuckStation/README.md) | Sony PlayStation konsolin emulaattori | V | 
+| 34                  | [Shotcut](https://github.com/mltframework/shotcut) | Mediaeditointiohjelma | D |
