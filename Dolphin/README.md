@@ -63,16 +63,16 @@ Lisäksi emulaattorin toteutuksessa on myös käytetty hieman seuraavia kieliä:
 - **Javaa** (0,6 %)
 - sekä muita kieliä (0,7 %).
 
-Emulaattorin totetutuksessa on käytetty useita eri protokollia. Olennaisia käytettyjä protokollia on esimerkiksi
+Emulaattorin totetutuksessa on käytetty useita eri protokollia. Joitakin käytettyjä protokollia on esimerkiksi
 
-- **Bluetooth**-protokollia Wii-ohjainta varten
-- B
-- B
+- **Bluetooth**- ja **USB**-protokollat ohjaimia varten
+- **UDP**- ja **ENet**-protokollat verkkoyhteydellä toimivaa moninpeliä (Netplay) varten
+- muita emulaattorissa käyettyjä protokollia ovat esim. **SSL**-, **TCP**-, **SDIO**- ja **DI**-protokollat
 
 Lisäksi emulaattorin toteutuksessa on käytetty muita välineitä kuten
 
-- A
-- B
-- C
-
-Kuvaile lyhyesti, mitä kieliä, protokollia ja välineitä käytetään ohjelmiston teknisessä toteutuksessa. Tämä voi auttaa ymmärtämään, millainen osaaminen vaaditaan mahdollisiin muokkauksiin tai konfiguraatioihin.
+- **Git** versionhallintaa varten
+- **Discord**-palvelin ja [foorumi](https://forums.dolphin-emu.org) yhteisön kommunikaatiota varten
+- **CMake**-käännöstyökalu lähdekoodin kääntämistä varten
+- **[Buildbot](https://dolphin.ci)** testaamisen automatisointiin
+- **[Transifex](https://explore.transifex.com/dolphinemu/dolphin-emu/)** Dolphinin eri kielille kääntämisen alustana
