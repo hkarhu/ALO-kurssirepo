@@ -12,7 +12,7 @@ data <- read.table(url("https://cs.uef.fi/sipu/datasets/s1.txt"))
 ##Luodaan matriisi datasta.
 X <- as.matrix(data)
 
-##Poistetaan sarake, joka kertoo datapisteen ryhmän.
+##Luodaan etäisyysmatriisi jota hyödynnetään dentogrammissa.
 d<-dist(X,method = "euclidean")
 
 ##Luodaan linkki objekteja, joita kutsutaan navpanelissa
