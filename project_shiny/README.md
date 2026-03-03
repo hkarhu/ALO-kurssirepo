@@ -1,3 +1,19 @@
+# SHINY
+Shiny on R-paketti, jonka avulla voi luoda interaktiivisia web-sovelluksia suoraa R:ssa ilman, että tarvitsee osata erillistä web-kehitystä. Sen päätarkoitus on tehdä datan visualisoinnista ja raporttien teosta helppoa R:n käyttäjälle. 
+
+## Miten Shiny toimii?
+Shiny-sovellukset sijaitsevat yhdessä tiedostossa nimeltä app.R. app.R koostuu käyttöliittymä objektista (UI), joka määrittää sovelluksen ulkoasun ja rakenteen ja palvelinfunktiosta (server), joka sisältää ohjeet, joiden avulla tietokone rakentaa sovelluksen. Palvelinfunktiossa määritellään, mitä sovellus tekee käyttäjän syötteiden perusteella. Lisäksi app.R sisältää kutsun shinyApp-funktioon, joka luo varsinaisen Shiny-sovellusobjektin yhdistämällä käyttöliittymän ja palvelinlogiikan. 
+
+## Missä Shinya käytetään?
+Shinya hyödyntävät niin korkeakoulut, julkinen sektori kuin yrityksetkin. Shinya on hyödynnetty myös kestävän kehityksen projekteissa. Esimerkiksi Future Forests on Shiny-sovellus, jonka avulla voi tutkia eri ilmastomallien vaikutusta metsiin Euroopassa. University of Wyoming:n kasvatustieteellisen tiedekunnan professorit kehittyvät Shinyn avulla datavisualisointeja ja malleja joiden avulla voitiin ennustaa urakehitys- ja palkkatuloksia, joita voitiin hyödyntää koulutusohjelmien kehittämisessä ja resurssien kohdentamisessa.
+
+## Lähteet
+Welcome to Shiny. [Online] Available at: https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/ [Haettu 2.3.2026].
+
+Shiny for Good: R Shiny Projects with a Positive Impact. [Online] Available at: https://www.r-bloggers.com/2022/11/shiny-for-good-r-shiny-projects-with-a-positive-impact/ [Haettu 2.3.2026].
+
+A Three-part Series on the Application and Production of Shiny Applications for IR: Part 1. [Online] Available at: https://www.airweb.org/article/2024/01/29/r-shiny-applications-for-ir-part-1 [Haettu 2.3.2026].
+
 # Lisenssi
 
 Shiny -ohjelmisto on lisensoitu MIT-lisenssillä, joka on erittäin joustava ja sallii ohjelmiston vapaan käytön, muokkauksen ja jakelun myös kaupallisissa projekteissa. Alkuperäiset tekijänoikeusmerkinnät on kuitenkin säilytettävä. (open source initiative, n.d.) Shinyn GitHubissa on myös lista muista projektiin kuuluvista komponenteista. Lista on perustettu, jotta projekti noudattaisi komponenttien lisenssiehtoja ilmoittamalla niiden alkuperän. (rstudio/shiny, 2026)
