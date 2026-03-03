@@ -19,33 +19,29 @@ link_shiny <- tags$a(
   href = "https://github.com/rstudio/shiny",
   target = "_blank"
 )
+
 link_posit <- tags$a(
   shiny::icon("r-project"), "Posit",
   href = "https://posit.co",
   target = "_blank"
 )
 
-
 ui <- page_navbar(window_title = "Shinyn testi",
                   
   nav_panel("Etusivu",
-            uiOutput("etusivu")  
-  ),
+            uiOutput("etusivu")),
   
   nav_panel("Example visualisation 1",
-            plotOutput("datapoints")
-  ),
+            plotOutput("datapoints")),
   
   nav_panel("Example visualisation 2", 
-            plotOutput("dentogram")
-  ),
+            plotOutput("dentogram")),
   
   nav_menu(
     title = "Links",
     align = "right",
     nav_item(link_shiny),
-    nav_item(link_posit)
-  ),
+    nav_item(link_posit)),
   
   footer = div(
     style = "
@@ -56,8 +52,7 @@ ui <- page_navbar(window_title = "Shinyn testi",
       font-size: 14px;
       color: #666;
     ",
-    "© 2026 Esimerkki R:n Shinylla tehdystä web sovelluksesta"  )
-)
+    "© 2026 Esimerkki R:n Shinylla tehdystä web sovelluksesta"  ))
 
 server <- function(input, output, session) {
   
@@ -65,9 +60,10 @@ server <- function(input, output, session) {
     div(
       style = "text-align: center;", 
       tagList(
+        card(
         h1("Tervetuloa etusivulle!"),         
-        p("Tämä on yksinkertainen etusivu hyödyntäen R:n shiny pakettia!"),
-        a("Siirry Shinyn dokumentaatioon", href = "https://shiny.rstudio.com/", target = "_blank"),
+        p("Tämä on yksinkertainen web sivu hyödyntäen R:n Shiny pakettia!"),
+        a("Siirry Shinyn dokumentaatioon", href = "https://shiny.rstudio.com/", target = "_blank")),
         br(), br(), br(),
         img(
           src = "https://www.r-project.org/logo/Rlogo.png",
