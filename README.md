@@ -19,7 +19,7 @@ Esityksen maksimipituus 10mins.
 | OpenWrt-ryhmä       | Jukknevala, Laszzee11,Oijoijoijoijoijoijoijoi |
 | Ryhmä with no name  | pasuunapaholainen                  |
 | CataclysmDDA        | joojoel, Sipulimies, Kaaku1 |
-| NN                  | Nuutti Nyyssönen |
+| NN                  | nuuttinyyssonen |
 | Ryhmä Y             | jjuliaj, WilmaVM, Kultaharkko      |
 | asdf                | netlaitinet                            |
 | x           | lassijar, KukkonenJussi                |
@@ -27,6 +27,8 @@ Esityksen maksimipituus 10mins.
 | K- Ryhmä			| Lukavarin, KurriRyka	|
 | JAE                 | Jarno M, Antti E, Eero V           |
 | PS1 Emu             | TheBoniestOne |
+| ryhma               | TES-aro       |
+| 34                  | opa-git, LillaNudde     |
 
 ### Esityspäivät:
 
@@ -57,3 +59,5 @@ Esityksen maksimipituus 10mins.
 | K- Ryhmä            | PhET simulaatiot: https://github.com/phetsims           | Simulaatio alusta eri luonnontieteille | C |
 | JAE                 | Godot ((https://github.com/godotengine/godot)) | Pelimoottori | D  |
 | PS1 Emu             | DuckStation [DuckStation](DuckStation/README.md) | Sony PlayStation konsolin emulaattori | V | 
+| ryhma               | [FFmpeg](FFmpeg/README.md) | matalan tason mediatyökalu projekti | B |
+| 34                  | [Shotcut](https://github.com/mltframework/shotcut) | Mediaeditointiohjelma | D |
