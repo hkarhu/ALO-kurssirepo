@@ -63,7 +63,7 @@ server <- function(input, output, session) {
   
   output$etusivu <- renderUI({
     div(
-      style = "text-align: center;",  # keskitys
+      style = "text-align: center;", 
       tagList(
         h1("Tervetuloa etusivulle!"),         
         p("Tämä on yksinkertainen etusivu hyödyntäen R:n shiny pakettia!"),
