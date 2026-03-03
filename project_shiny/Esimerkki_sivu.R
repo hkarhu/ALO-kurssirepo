@@ -4,9 +4,10 @@ library(cluster)
 library(factoextra)
 library(shiny)
 library(bslib)
+library(DT)
 
 
-###Esimerkki data, jota käytimme ryhmittelymenetelmien kurssilla.
+###Esimerkki datasetti, jota käytimme ryhmittelymenetelmien kurssilla.
 data <- read.table(url("https://cs.uef.fi/sipu/datasets/s1.txt"))
 ##Luodaan matriisi datasta.
 X <- as.matrix(data)
@@ -14,34 +15,43 @@ X <- as.matrix(data)
 ##Poistetaan sarake, joka kertoo datapisteen ryhmän.
 d<-dist(X,method = "euclidean")
 
+##Luodaan linkki objekteja, joita kutsutaan navpanelissa
 link_shiny <- tags$a(
   shiny::icon("github"), "Shiny",
   href = "https://github.com/rstudio/shiny",
   target = "_blank"
 )
 
-link_posit <- tags$a(
-  shiny::icon("r-project"), "Posit",
-  href = "https://posit.co",
+link_dataset <- tags$a( "Clustering basic benchmark",
+  href = "https://cs.uef.fi/sipu/datasets/",
   target = "_blank"
 )
 
-ui <- page_navbar(window_title = "Shinyn testi",
-                  
-  nav_panel("Etusivu",
-            uiOutput("etusivu")),
+##Käytettävät sivut joita voidaan tarkastella page_navbarin avulla
+ui <- page_navbar(window_title = "Shiny example",
+  nav_panel("Homepage",
+            uiOutput("homepage")),
   
-  nav_panel("Example visualisation 1",
+  nav_panel("Example 1",
+    div(style = "padding-bottom: 120px;",
+      h2("Table view (Dataset:s1)"),
+      DTOutput("table"))),
+  
+  
+  nav_panel("Example 2",
+            h2("Datapoints view (Dataset:s1)"),
             plotOutput("datapoints")),
+
   
-  nav_panel("Example visualisation 2", 
+  nav_panel("Example 3",
+            h2("Dentogram view (Dataset:s1)"),
             plotOutput("dentogram")),
   
   nav_menu(
     title = "Links",
     align = "right",
-    nav_item(link_shiny),
-    nav_item(link_posit)),
+    nav_item(link_dataset),
+    nav_item(link_shiny)),
   
   footer = div(
     style = "
@@ -52,42 +62,44 @@ ui <- page_navbar(window_title = "Shinyn testi",
       font-size: 14px;
       color: #666;
     ",
-    "© 2026 Esimerkki R:n Shinylla tehdystä web sovelluksesta"  ))
+    "© 2026 Example of a web application created with R Shiny"  ))
 
 server <- function(input, output, session) {
   
-  output$etusivu <- renderUI({
+  ##homepagen sisältö
+  output$homepage <- renderUI({
     div(
       style = "text-align: center;", 
+      
       tagList(
-        card(
-        h1("Tervetuloa etusivulle!"),         
-        p("Tämä on yksinkertainen web sivu hyödyntäen R:n Shiny pakettia!"),
-        a("Siirry Shinyn dokumentaatioon", href = "https://shiny.rstudio.com/", target = "_blank")),
-        br(), br(), br(),
+        card(h1("Welcome!"),         
+        p("This is a simple web page using R Shiny package!"),
+        a("Go to Shiny documentation", href = "https://shiny.rstudio.com/", target = "_blank")),
+        
         img(
           src = "https://www.r-project.org/logo/Rlogo.png",
-          style = "max-width: 400px; width: 100%; height: auto; display: block; margin: auto;"
+          style = "max-width: 400px; width: 100%; height: auto; display: block; margin: auto;")
         )
-      )
     )
   })
+  ##Taulukko näkymä
+  output$table <- renderDT({
+    datatable(data)})
   
+  ##Datapiste näkymä
   output$datapoints <- renderPlot({
     ggplot(data = X, aes(x = V1, y = V2)) +
-      geom_point() +
-      ggtitle("Datapoints:s1.txt") +
-      theme(
-        plot.title = element_text(face = "bold")
-      )
-  })
+      geom_point() })
   
+  ##Dentogrammi näkymä
   output$dentogram <- renderPlot({
     hc <- hclust(d, method = "ward.D")
-    plot(hc, main = "Dentogram:s1.txt",
-         xlab = "",       
-         sub = "Using ward distance")       
-  })
+    plot(hc,
+         labels = FALSE,
+         main = "Dendrogram",
+         xlab = "",
+         sub = "Using Ward distance")
+    rect.hclust(hc, k = 15)})
 }
 
 #?shinyApp()
