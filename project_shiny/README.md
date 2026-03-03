@@ -1,6 +1,23 @@
+# SHINY
+Shiny on R-paketti, jonka avulla voi luoda interaktiivisia web-sovelluksia suoraa R:ssa ilman, että tarvitsee osata erillistä web-kehitystä. Sen päätarkoitus on tehdä datan visualisoinnista ja raporttien teosta helppoa R:n käyttäjälle. 
+
+## Miten Shiny toimii?
+Shiny-sovellukset sijaitsevat yhdessä tiedostossa nimeltä app.R. app.R koostuu käyttöliittymä objektista (UI), joka määrittää sovelluksen ulkoasun ja rakenteen ja palvelinfunktiosta (server), joka sisältää ohjeet, joiden avulla tietokone rakentaa sovelluksen. Palvelinfunktiossa määritellään, mitä sovellus tekee käyttäjän syötteiden perusteella. Lisäksi app.R sisältää kutsun shinyApp-funktioon, joka luo varsinaisen Shiny-sovellusobjektin yhdistämällä käyttöliittymän ja palvelinlogiikan. 
+
+## Missä Shinya käytetään?
+Shinya hyödyntävät niin korkeakoulut, julkinen sektori kuin yrityksetkin. Shinya on hyödynnetty myös kestävän kehityksen projekteissa. Esimerkiksi Future Forests on Shiny-sovellus, jonka avulla voi tutkia eri ilmastomallien vaikutusta metsiin Euroopassa. University of Wyoming:n kasvatustieteellisen tiedekunnan professorit kehittyvät Shinyn avulla datavisualisointeja ja malleja joiden avulla voitiin ennustaa urakehitys- ja palkkatuloksia, joita voitiin hyödyntää koulutusohjelmien kehittämisessä ja resurssien kohdentamisessa.
+
+## Lähteet
+Welcome to Shiny. [Online] Available at: https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/ [Haettu 2.3.2026].
+
+Shiny for Good: R Shiny Projects with a Positive Impact. [Online] Available at: https://www.r-bloggers.com/2022/11/shiny-for-good-r-shiny-projects-with-a-positive-impact/ [Haettu 2.3.2026].
+
+A Three-part Series on the Application and Production of Shiny Applications for IR: Part 1. [Online] Available at: https://www.airweb.org/article/2024/01/29/r-shiny-applications-for-ir-part-1 [Haettu 2.3.2026].
+
 # Lisenssi
 
 Shiny -ohjelmisto on lisensoitu MIT-lisenssillä, joka on erittäin joustava ja sallii ohjelmiston vapaan käytön, muokkauksen ja jakelun myös kaupallisissa projekteissa. Alkuperäiset tekijänoikeusmerkinnät on kuitenkin säilytettävä. (open source initiative, n.d.) Shinyn GitHubissa on myös lista muista projektiin kuuluvista komponenteista. Lista on perustettu, jotta projekti noudattaisi komponenttien lisenssiehtoja ilmoittamalla niiden alkuperän. (rstudio/shiny, 2026)
+
 
 ## MIT-lisenssin oikeudet, ehdot ja rajoitukset
 ### Ohjelmistoa saa (myös kaupallisesti):
@@ -59,6 +76,110 @@ open source initiative, n.d. The MIT License. [Online] Available at: https://ope
 
 rstudio/shiny, 25.2.2026. Shiny. [Online] Available at: https://github.com/rstudio/shiny [Haettu 1.3.2026].
 
+
+# Tekninen toteutus
+Shiny on pääasiassa R-kielellä toteutettu web-sovelluskehys, mutta sen toteutuksessa hyödynnetään useita web-teknologioita.
+
+
+### Kielet
+
+- **R** – sovelluslogiikka ja palvelinpuolen laskenta
+
+- **JavaScript & TypeScript** – selaimen toiminnallisuus 
+
+- **HTML** – käyttöliittymän rakenne
+
+- **CSS & SCSS** – ulkoasu ja tyylien määrittely
+
+### Kirjastot ja työkalut
+
+- **Bootstrap**- käyttöliittymäkomponentit ja responsiivinen rakenne
+- **jQuery** - selaintapahtumien käsittely ja käyttöliittymän päivitykset
+- **httpuv** (R-paketti) – HTTP- ja WebSocket-palvelin R-ympäristössä
+- **Shiny Server / shinyapps.io** – sovelluksen julkaisuympäristöt
+
+### Protokollat
+
+- **HTTP/HTTPS** – sovelluksen lataaminen selaimeen 
+- **WebSocket** – reaaliaikainen tiedonsiirto selaimen ja R-session välillä
+
+# Miten interaktiivinen verkkosovellus toteutetaan?
+
+Shiny muuttaa R-koodin interaktiiviseksi web-sovellukseksi, joka toimii selaimessa.
+
+Shiny koostuu kahdesta pääosasta:
+
+### 1.	Käyttöliittymä
+
+- määrittelee miltä sovellus näyttää (napit, valikot, kuviot)
+
+### 2. Server
+
+- R-koodi
+- sisältää laskennan ja datan käsittelyn
+- reagoi käyttäjän syötteisiin
+
+### Toiminta käytännössä
+
+1. R suorittaa sovellusta palvelimella
+
+   → Kun Shiny-app käynnistetään, R-prosessi alkaa ajaa sovelluksen server-logiikkaa.
+
+2. UI muutetaan verkkosivuksi
+   
+   → R:ssä määritelty käyttöliittymä renderöidään HTML-muotoon ja lähetetään selaimeen.
+
+3. Selain ja R pitävät jatkuvaa yhteyttä
+   
+   → Selain muodostaa pysyvän (WebSocket) yhteyden palvelimeen. Tämä mahdollistaa reaaliaikaisen viestinnän ilman sivun uudelleenlatausta.
+
+4. Käyttäjän toiminta laukaisee päivityksen
+   
+   → Kun käyttäjä muuttaa syötettä (esim. liukusäädintä), tieto lähetetään R:lle.
+
+5. Reaktiivinen laskenta
+   
+   → Shiny tarkistaa, mitkä osat sovelluksesta riippuvat muuttuneesta syötteestä, ja laskee uudelleen vain ne osat.
+
+6. Tulokset päivitetään selaimeen
+   
+   → Päivitetty sisältö lähetetään takaisin selaimeen ja näkymä päivittyy ilman sivun uudelleenlatausta.
+
+# Missä Shiny-sovellus voidaan julkaista?
+
+### shinyapps.io
+
+shinyapps.io on Positin tarjoama pilvipalvelu Shiny-sovellusten julkaisuun.
+
+Palvelussa on ilmainen käyttöpaketti rajatulla aktiiviajalla sekä useita maksullisia tasoja, jotka tarjoavat enemmän resursseja, suorituskykyä ja ominaisuuksia.
+
+- Sovellus ajetaan Positin pilvipalvelimilla
+
+- Jokaiselle käyttäjälle luodaan oma R-sessio
+
+- Sovellus saa julkisen verkkolinkin
+
+### Shiny Server
+
+Shiny Server on avoimen lähdekoodin ohjelmisto, joka asennetaan omalle palvelimelle Shiny-sovellusten ajamiseen.
+
+- Ajaa Shiny-sovelluksia palvelimella
+
+- Hallinnoi käyttäjäkohtaisia R-sessioita
+
+- Mahdollisuus omaan infrastruktuuriin
+
+- Saatavilla open source -versiona ja maksullisena Pro-versiona
+
+
+### Teknisen toteutuksen lähteet 
+
+Shiny GitHub — https://github.com/rstudio/shiny 
+
+Shiny documentation (Posit) — https://shiny.posit.co/
+
+JavaScript for R: Bidirectional Communication — https://book.javascript-for-r.com/shiny-intro
+
 # Mitä ovat R:n paketit?
 
 Paketit ovat valmiita laajennuksia, joiden avulla R:ssä on mahdollista hyödyntää muiden luomaa koodia, funktioita ja julkaisemaa esimerkki dataa. Kun asennat R:n ensimmäistä kertaa tietokoneellesi, samalla asennat joukon tyypillisimpiä paketteja. On olemassa organisaatioita ja kehittäjiä, jotka julkaisevat paketteja ylläpidettyihin tietovarantoihin. Kaikkein tyypillisin on CRAN:n (Comprehensive R Archive Network) tietovanto, jota ylläpitää maailmalaajuinen R-yhteisö. Jotta paketti julkaistaisiin CRANissa, paketin täytyy läpäistä useita testejä, jotta varmistuu että paketti noudattaa RAN-käytäntöjä. (GreeksForGeeks, 17.6.2025). Cranin lisäksi on kuitenkin olemassa myös muita tietovarantoja, kuten Bioconductor sekä Microsoftin MRAN sekä GitHub. ([CRAN](https://cran.r-project.org/), [Bioconductor](https://www.bioconductor.org/), [MRAN](https://techcommunity.microsoft.com/blog/azuresqlblog/microsoft-r-application-network-retirement/3707161) [GitHub](https://github.com/topics/r-packages)). 
@@ -80,7 +201,6 @@ Näin libary komento hakee paketin tietokoneeltamme kirjastosta eli pakettien ha
 GreeksForGeeks, 17.6.2025. Packages in R programming. [Online] 
 Available at: https://www.geeksforgeeks.org/r-language/packages-in-r-programming/
 [Haettu 20.2.2025].
-
 
 
 # Kuinka luoda R:ssä oma paketti?
@@ -157,4 +277,5 @@ usethis::use_github()
 
 Lähde ohjeelle: 
 https://www.datanovia.com/learn/programming/r/advanced/developing-and-publishing-r-packages.html
+
 
