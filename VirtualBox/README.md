@@ -34,7 +34,7 @@ Vaikka lisenssi on vapaa, siinä on tiettyjä suojamekanismeja:
 
 ### Projektin Aktiivisuus ja Ylläpito
 - **Historia:** VirtualBox on alunperin Innotek Systemberataung GmbH kehittämä vuonna 2007, ja siirtynyt vuonna 2008 Sun microsystemsin omistukseen vuonna 2008 joka siirtyi Oraclelle vuonna 2010. Alunperin InnoTek Systemberatung tarjosi VirtualBoxia kaupallisena ohjelmistona, mutta vuonna 2007 LiSoG konsultointiin perustuen InnoTek julkaisi VirtualBox Open Source editionin. GPL-2 lisenssillä. Oracle tarjoaa VirtualBoxin rinnalla VirtualBox extension packin joka tukee lisäominaisuuksia mutta ei ole avoin, henkilökohtainen käyttö on ilmaista mutta kaupallinen käyttö vaatii lisenssin ostamisen.
--**Merkittävät päivitykset**   22.12.2010 Avoin ja Personal use lisenssillä olevat erilliset versiot hylättiin ja siirryttiin avoimeen versioon jossa PUEL lisäosa. 
+- **Merkittävät päivitykset**   22.12.2010 Avoin ja Personal use lisenssillä olevat erilliset versiot hylättiin ja siirryttiin avoimeen versioon jossa PUEL lisäosa. 
 18.12..2018 tuki virtuaalikoneiden viemiseen pilveen.
 10.12.2019 tuki virtuaalikoneiden tuomiseen pilvestä
 14.8.2025 ARM virtualisointi tuki
