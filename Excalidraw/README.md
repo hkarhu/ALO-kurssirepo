@@ -30,14 +30,15 @@ Sovellus tukee myös reaaliaikaista yhteistyötä, jolloin useampi käyttäjä v
 Excalidraw alkoi alunperin vapaa-ajan projektina vuoden 2020 alussa. Sen tekijä Christopher "Vjeux" Chedeau halusi laatia ratkaisun yritysten sen ajan tarpeeseen virtuaalisille valkotaulu- ja konferenssisovelluksille koronalukitusten yleistyessä.
 Excalidraw räjähti suosiossa nopeasti ja jo kahdessa viikossa sillä oli yli 12'000 aktiivista käyttäjää, 1500 tähteä GitHubissa ja 26 osallistujaa. Chedeaun mukaan Excalidrawin inspiraationa toimi diagrammiohjelma nimeltä [Zwibbler](https://zwibbler.com/demo/).
 
-Excalidrawiin lisättyjen ominaisuuksien aikajanasta löytyy hajanaisesti tietoa, mutta ohjelman oman sivuston blogista sekä julkaisutieddotteista pystyy muodostamaan karkean aikajanan ohjelman tärkeämmistä päivityksistä:
+Excalidrawiin lisättyjen ominaisuuksien aikajanasta löytyy hajanaisesti tietoa, mutta ohjelman oman sivuston blogista sekä julkaisutiedotteista pystyy muodostamaan karkean aikajanan ohjelman tärkeämmistä päivityksistä:
 
-+ Tammikuu 2020 - Excalidrawin ensimmäinen julkaisu
-+ Maaliskuu 2020 - Useamman käyttäjän oli nyt mahdollista katsoa ja muokata samaa valkotaulua. Tämä oli mahdollista "päästä päähän-salausta hyödyntävällä osittaisella P2P-mallilla", jossa keskeinen palvelin lähettää enkryptoidut viestit käyttäjiltä
++ **Tammikuu 2020** - Excalidrawin ensimmäinen julkaisu
++ **Maaliskuu 2020** - Useamman käyttäjän oli nyt mahdollista katsoa ja muokata samaa valkotaulua. Tämä oli mahdollista "päästä päähän-salausta hyödyntävällä osittaisella P2P-mallilla", jossa keskeinen palvelin lähettää enkryptoidut viestit käyttäjiltä
                    toisilleen, mutta itse palvelin ei koordinoi millään tavalla.
-+ Huhtikuu 2020 - Excalidraw alkoi sallimaan yhteisön laatimia ohjelman käyttöliittymän kielen käännöksiä.
-+ Toukokuu 2021 - Excalidraw+ ensimmäinen julkaisu. Se on ensisijaisesti yrityksille tarkoitettu maksullinen versio ohjelmasta, joka sisältää lisäominaisuuksia.
-+ Lokakuu 2021 - Integraatio Webexin kanssa.
++ **Huhtikuu 2020** - Excalidraw alkoi sallimaan yhteisön laatimia ohjelman käyttöliittymän kielen käännöksiä.
++ **Toukokuu 2021** - Excalidraw+ ensimmäinen julkaisu. Se on ensisijaisesti yrityksille tarkoitettu maksullinen versio ohjelmasta, joka sisältää lisäominaisuuksia.
++ **Lokakuu 2021** - Integraatio Webexin kanssa.
++ ** Kesäkuu 2025** - Excalidraw+ implementoi SOC2 (Service Organization Control Type 2)-tietoturvakehyksen.
 
 Ensimmäisen kahden vuoden jälkeen Excalidrawin kehitys on siirtynyt enemmän optimoinnin ja olemassa olevien ominaisuuksien parantamisen puolelle. Ohjelman maksullinen versio on viimeisen kolmen vuoden aikana saanut kehittyneempiä ominaisuuksia
 kuten ruudunjako, Powerpointin kaltaisten presentaatioiden luominen sekä tekoäly-ominaisuuksia.
@@ -45,6 +46,14 @@ kuten ruudunjako, Powerpointin kaltaisten presentaatioiden luominen sekä tekoä
 Nykyään kirjoitushetkellä Excalidrawilla on 354 osallistujaa, 274 oksaa, ~12'700 haarukkaa ja 118'000 tähteä GitHubissa. Master oksalla on yli 3950 committia. Uusin "stable" versio ohjelmasta on v0.18 viime vuoden maaliskuulta.
 
 ### Aktiivisuus
+
+Excalidrawilla on ollut jo alusta saakka aktiivinen yhteisö. Käyttäjien ja projektiin osallistujien määrä on ollut tasaisessa nousussa jo kuuden vuoden ajan eikä vaikuta olevan vähentymässä.
+Ohjelman blogissa on ollut aina vuosittainen tilannekatsaus, jossa he ovat listanneet aktiivisuuteen liittyviä arvoja, kuten käyttäjien tai GitHub tähtien määrän. Uusin katsaus on toistaiseksi vielä viime vuodelta:
+![Kuukausittaisten käyttäjien määrä](https://excalidraw.nyc3.cdn.digitaloceanspaces.com/lp-cms/media/oss_mau.png)
+![GitHub tähtien määrä](https://excalidraw.nyc3.cdn.digitaloceanspaces.com/lp-cms/media/github_stars.png)
+
+Lisäksi ohjelman master haaraan tehdään aina noin ~20 - 30 committia joka kuukausi.
+
 
 
 # Osallistuminen Projektiin
