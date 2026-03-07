@@ -1,3 +1,184 @@
+# SHINY
+Shiny on R-paketti, jonka avulla voi luoda interaktiivisia web-sovelluksia suoraa R:ssa ilman, että tarvitsee osata erillistä web-kehitystä. Sen päätarkoitus on tehdä datan visualisoinnista ja raporttien teosta helppoa R:n käyttäjälle. 
+
+## Miten Shiny toimii?
+Shiny-sovellukset sijaitsevat yhdessä tiedostossa nimeltä app.R. app.R koostuu käyttöliittymä objektista (UI), joka määrittää sovelluksen ulkoasun ja rakenteen ja palvelinfunktiosta (server), joka sisältää ohjeet, joiden avulla tietokone rakentaa sovelluksen. Palvelinfunktiossa määritellään, mitä sovellus tekee käyttäjän syötteiden perusteella. Lisäksi app.R sisältää kutsun shinyApp-funktioon, joka luo varsinaisen Shiny-sovellusobjektin yhdistämällä käyttöliittymän ja palvelinlogiikan. 
+
+## Missä Shinya käytetään?
+Shinya hyödyntävät niin korkeakoulut, julkinen sektori kuin yrityksetkin. Shinya on hyödynnetty myös kestävän kehityksen projekteissa. Esimerkiksi Future Forests on Shiny-sovellus, jonka avulla voi tutkia eri ilmastomallien vaikutusta metsiin Euroopassa. University of Wyoming:n kasvatustieteellisen tiedekunnan professorit kehittyvät Shinyn avulla datavisualisointeja ja malleja joiden avulla voitiin ennustaa urakehitys- ja palkkatuloksia, joita voitiin hyödyntää koulutusohjelmien kehittämisessä ja resurssien kohdentamisessa.
+
+## Lähteet
+Welcome to Shiny. [Online] Available at: https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/ [Haettu 2.3.2026].
+
+Shiny for Good: R Shiny Projects with a Positive Impact. [Online] Available at: https://www.r-bloggers.com/2022/11/shiny-for-good-r-shiny-projects-with-a-positive-impact/ [Haettu 2.3.2026].
+
+A Three-part Series on the Application and Production of Shiny Applications for IR: Part 1. [Online] Available at: https://www.airweb.org/article/2024/01/29/r-shiny-applications-for-ir-part-1 [Haettu 2.3.2026].
+
+# Lisenssi
+
+Shiny -ohjelmisto on lisensoitu MIT-lisenssillä, joka on erittäin joustava ja sallii ohjelmiston vapaan käytön, muokkauksen ja jakelun myös kaupallisissa projekteissa. Alkuperäiset tekijänoikeusmerkinnät on kuitenkin säilytettävä. (open source initiative, n.d.) Shinyn GitHubissa on myös lista muista projektiin kuuluvista komponenteista. Lista on perustettu, jotta projekti noudattaisi komponenttien lisenssiehtoja ilmoittamalla niiden alkuperän. (rstudio/shiny, 2026)
+
+
+## MIT-lisenssin oikeudet, ehdot ja rajoitukset
+### Ohjelmistoa saa (myös kaupallisesti):
+* käyttää
+* muokata
+* kopioida
+* yhdistää
+* julkaista
+* jakaa
+* alilisensoida
+* myydä kopioita (open source initiative, n.d.)
+
+### Ehdot ja rajoitukset:
+* Jos jaat ohjelmistoa tai sen osia eteenpäin, sinun on jätettävä alkuperäinen lisenssiteksti ja maininta tekijöistä koodiin mukaan.
+* Ohjelmisto tarjotaan "sellaisenaan". Eli kehittäjät eivät anna lupauksia ohjelmiston toimivuudesta.
+* Jos koodi aiheuttaa virheitä, tietoturva-aukkoja tai taloudellisia vahinkoja, koodin tekijät eivät ole niistä vastuussa. Täysi vastuu ohjelmiston käytöstä on käyttäjällä. (open source initiative, n.d.)
+
+# Historia ja aktiivisuus
+## Historia
+### Ikä
+Ohjelmistoprojekti on aloitettu vuonna 2012, ja sen on perustanut Joe Cheng (RStudion tekninen johtaja)
+### Virstanpylväät
+* 0.1.2. - ensimmäinen julkaisu vuonna 2012
+* 0.10.0 - Shinyä pystyi käyttämään ensimmäistä kertaa R Markdown -dokumenteissa
+* 0.10.2 - sovellus voidaan tehdä yhteen tiedostoon aikaisemman kahden sijaan, voidaan myös näyttää käyttäjälle laskennan edistyminen
+* 1.6.0 - tuki Bootstrap 4:lle ja tulosten tallentaminen välimuistiin
+* 1.7.0 - Bootstrap 5 ja ohjelmiston ydin TypeScript:iksi
+* 2022 - Shiny julkaistiin Python-kielelle
+* 1.8.1 - pitkät laskennat voidaan ajaa taustalla
+* 1.9.0 - latausanimaatio, kun sovellus laskee uutta tietoa
+* 1.12.0 - OpenTelemetry-standardin tuki, eli tarkka suorituskyvyn seuranta
+* 2025 - lisenssi muuttuu GPL-3 -> MIT
+* 1.13.0 - tuki interaktiivisille kekskeytyskohdille koodin testausta ja vianetsintää varten. (rstudio/shiny, 2026)
+## Aktiivisuus
+Projekti on erittäin aktiivinen - päivityksiä ja korjauksia tehdään jatkuvasti. Esimerkiksi vuoden 2026 helmikuussa tehtiin jopa 7 muutosta ja viime vuonna muutoksia oli 77 kappaletta. Tähän mennessä projektilla on 6186 muutosta. (rstudio/shiny, 2026)
+## Ylläpito
+Projektia ylläpitää ja johtaa RSudio, nykyinen Posit PBC. GitHubin tekijälistä kertoo, että koodin laadusta ja projektin suunnasta vastaa joukko asiantuntijoita, kuten Winston Chang, Joe Cheng ja Carson Sievert. Projektin avoimuus takaa sen, että kuka tahansa voi tarkastella koodia, raportoida virheitä tai ehdottaa parannuksia. Siis useat käyttäjät ympäri maailmaa osallistuvat projektin laadunvalvontaan ja kehittämiseen. (rstudio/shiny, 2026)
+# Osallistuminen projektiin
+## Contribution model
+### Vikailmoitukset
+Käyttäjät voivat ilmoittaa löytämistään virheistä tekemällä "issue"-ilmoituksen. Tällöin on tärkeää antaa mahdollisimman paljon tietoa ja liittää mukaan pieni, toimiva koodiesimerkki ongelman toistamiseen. (rstudio/shiny, 2026)
+### Koodimuutokset (Pull Requests)
+Kuka tahansa voi ehdottaa muutoksia koodiin. Projektissa ei ole tiukasti määriteltyjä ulkopuolisia rooleja, vaan ylläpitäjät (Posit-yrityksen tiimi) arvioivat jokaisen ehdotuksen erikseen. Erityisenä sääntönä on, että ulkopuolisten ei haluta päivittävän projektin mukana tulevia verkkokirjastoja (kuten jQuery tai Bootstrap), vaan ylläpitäjät hoitavat ne itse varmistaakseen niiden toimivuuden. (rstudio/shiny, 2026)
+## Kuinka tehdä/julkaista muutoksia
+### 1. Tekniset vaiheet
+* **Forkkaus:** Projektista tehdään oma kopio (Fork) GitHubissa, joon muutokset koodataan.
+* **CLA-sopimus:** Osallistujan on allekirjoitettava sähköisesti kehittäjälisenssisopimus, joka ilmestyy automaattisesti tarkistuksena GitHub-ehdotukseen.
+* **Testaus:** Muutoksille on lisättävä yksikkötestit. Ennen lähettämistä kehittäjän on ajettava `devtools::check` -työkalu varmistaakseen, ettei koodi aiheuta virheitä tai varoituksia.
+* **Dokumentointi:** Jokaisesta muutoksesta on kirjoitettava lyhyt tiivistelmä `NEWS.md` -tiedostoon. (rstudio/shiny, 2026)
+### 2. Ehdotusten tekeminen:
+* Muutokset lähetetään ylläpitäjälle Pull Request -pyynnöllä.
+* Ylläpitäjät arvioivat ehdotuksen kriteerien perusteella. Ehdotus voidaan hylätä esimerkiksi, jos se rikkoo yhteensopivuuden vanhojen versioiden kanssa, on liian vaikea ylläpitää, on suorituskyvyltään heikko tai ei ole looginen käyttäjille. (rstudio/shiny, 2026)
+
+## Lähteet
+open source initiative, n.d. The MIT License. [Online] Available at: https://opensource.org/license/mit [Haettu 1.3.2026].
+
+rstudio/shiny, 25.2.2026. Shiny. [Online] Available at: https://github.com/rstudio/shiny [Haettu 1.3.2026].
+
+
+# Tekninen toteutus
+Shiny on pääasiassa R-kielellä toteutettu web-sovelluskehys, mutta sen toteutuksessa hyödynnetään useita web-teknologioita.
+
+
+### Kielet
+
+- **R** – sovelluslogiikka ja palvelinpuolen laskenta
+
+- **JavaScript & TypeScript** – selaimen toiminnallisuus 
+
+- **HTML** – käyttöliittymän rakenne
+
+- **CSS & SCSS** – ulkoasu ja tyylien määrittely
+
+### Kirjastot ja työkalut
+
+- **Bootstrap**- käyttöliittymäkomponentit ja responsiivinen rakenne
+- **jQuery** - selaintapahtumien käsittely ja käyttöliittymän päivitykset
+- **httpuv** (R-paketti) – HTTP- ja WebSocket-palvelin R-ympäristössä
+- **Shiny Server / shinyapps.io** – sovelluksen julkaisuympäristöt
+
+### Protokollat
+
+- **HTTP/HTTPS** – sovelluksen lataaminen selaimeen 
+- **WebSocket** – reaaliaikainen tiedonsiirto selaimen ja R-session välillä
+
+# Miten interaktiivinen verkkosovellus toteutetaan?
+
+Shiny muuttaa R-koodin interaktiiviseksi web-sovellukseksi, joka toimii selaimessa.
+
+Shiny koostuu kahdesta pääosasta:
+
+### 1.	Käyttöliittymä
+
+- määrittelee miltä sovellus näyttää (napit, valikot, kuviot)
+
+### 2. Server
+
+- R-koodi
+- sisältää laskennan ja datan käsittelyn
+- reagoi käyttäjän syötteisiin
+
+### Toiminta käytännössä
+
+1. R suorittaa sovellusta palvelimella
+
+   → Kun Shiny-app käynnistetään, R-prosessi alkaa ajaa sovelluksen server-logiikkaa.
+
+2. UI muutetaan verkkosivuksi
+   
+   → R:ssä määritelty käyttöliittymä renderöidään HTML-muotoon ja lähetetään selaimeen.
+
+3. Selain ja R pitävät jatkuvaa yhteyttä
+   
+   → Selain muodostaa pysyvän (WebSocket) yhteyden palvelimeen. Tämä mahdollistaa reaaliaikaisen viestinnän ilman sivun uudelleenlatausta.
+
+4. Käyttäjän toiminta laukaisee päivityksen
+   
+   → Kun käyttäjä muuttaa syötettä (esim. liukusäädintä), tieto lähetetään R:lle.
+
+5. Reaktiivinen laskenta
+   
+   → Shiny tarkistaa, mitkä osat sovelluksesta riippuvat muuttuneesta syötteestä, ja laskee uudelleen vain ne osat.
+
+6. Tulokset päivitetään selaimeen
+   
+   → Päivitetty sisältö lähetetään takaisin selaimeen ja näkymä päivittyy ilman sivun uudelleenlatausta.
+
+# Missä Shiny-sovellus voidaan julkaista?
+
+### shinyapps.io
+
+shinyapps.io on Positin tarjoama pilvipalvelu Shiny-sovellusten julkaisuun.
+
+Palvelussa on ilmainen käyttöpaketti rajatulla aktiiviajalla sekä useita maksullisia tasoja, jotka tarjoavat enemmän resursseja, suorituskykyä ja ominaisuuksia.
+
+- Sovellus ajetaan Positin pilvipalvelimilla
+
+- Jokaiselle käyttäjälle luodaan oma R-sessio
+
+- Sovellus saa julkisen verkkolinkin
+
+### Shiny Server
+
+Shiny Server on avoimen lähdekoodin ohjelmisto, joka asennetaan omalle palvelimelle Shiny-sovellusten ajamiseen.
+
+- Ajaa Shiny-sovelluksia palvelimella
+
+- Hallinnoi käyttäjäkohtaisia R-sessioita
+
+- Mahdollisuus omaan infrastruktuuriin
+
+- Saatavilla open source -versiona ja maksullisena Pro-versiona
+
+
+### Teknisen toteutuksen lähteet 
+
+Shiny GitHub — https://github.com/rstudio/shiny 
+
+Shiny documentation (Posit) — https://shiny.posit.co/
+
+JavaScript for R: Bidirectional Communication — https://book.javascript-for-r.com/shiny-intro
 
 # Mitä ovat R:n paketit?
 
@@ -20,7 +201,6 @@ Näin libary komento hakee paketin tietokoneeltamme kirjastosta eli pakettien ha
 GreeksForGeeks, 17.6.2025. Packages in R programming. [Online] 
 Available at: https://www.geeksforgeeks.org/r-language/packages-in-r-programming/
 [Haettu 20.2.2025].
-
 
 
 # Kuinka luoda R:ssä oma paketti?
@@ -97,4 +277,5 @@ usethis::use_github()
 
 Lähde ohjeelle: 
 https://www.datanovia.com/learn/programming/r/advanced/developing-and-publishing-r-packages.html
+
 

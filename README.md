@@ -9,6 +9,7 @@ Esityksen maksimipituus 10mins.
 | Ryhmä               | Ryhmän jäsenet                     |
 |---------------------|------------------------------------|
 | ryhmän nimi         | ryhmän, jäsenten, git-hub tunnarit |
+| ryhmä47             | AarniLeh, LukkaJo, SairainE        |
 | ryhmä xyz           | FransJuhaniHietaniva, mrduckos, jopehe |
 | Emu                 | AslaAsla, HenryLaine, jonttuXD     |
 | Ryhmä 3             | roko02, Eme-desing                 |
@@ -18,12 +19,17 @@ Esityksen maksimipituus 10mins.
 | OpenWrt-ryhmä       | Jukknevala, Laszzee11,Oijoijoijoijoijoijoijoi |
 | Ryhmä with no name  | pasuunapaholainen                  |
 | CataclysmDDA        | joojoel, Sipulimies, Kaaku1 |
-| NN                  | Nuutti Nyyssönen |
+| NN                  | nuuttinyyssonen |
 | Ryhmä Y             | jjuliaj, WilmaVM, Kultaharkko      |
 | asdf                | netlaitinet                            |
 | x           | lassijar, KukkonenJussi                |
 | ta			| VilleR-GitHub, LeeviAsikainen, timbzi	|
 | K- Ryhmä			| Lukavarin, KurriRyka	|
+| JAE                 | Jarno M, Antti E, Eero V           |
+| PS1 Emu             | TheBoniestOne |
+| ryhma               | TES-aro       |
+| 34                  | opa-git, LillaNudde     |
+| Ryhmä 99            | tailow, TommiNeuvonen              |
 
 ### Esityspäivät:
 
@@ -36,6 +42,7 @@ Esityksen maksimipituus 10mins.
 | Ryhmä               | Ohjelma               | Kuvaus                                               | Esityspäivä |
 |---------------------|-----------------------|------------------------------------------------------|-------------|
 | ryhmän nimi         | ohjelman nimi ja linkki git-repon kansioon | lyhyt kuvaus                    | esityspäivän kirjain |
+| ryhmä47             | VirtualBox (https://github.com/VirtualBox) | Yleiskäyttöinen virtualisointiohjelmisto             | V |
 | ryhmä xyz           | OpenTTD https://github.com/OpenTTD/OpenTTD | Avoimen lähdekoodin simulaatiopeli | C |
 | Emu                 | Dolphin [Dolphin](Dolphin/README.md)       | Emulaattori GameCube- ja Wii-peleille | C                    |
 | Ryhmä 3             | [Chocolatey](Chocolatey/README.md)         | Paketinhallintatyökalu (package manager) Windowsille | B |
