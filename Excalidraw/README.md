@@ -38,7 +38,7 @@ Excalidrawiin lisättyjen ominaisuuksien aikajanasta löytyy hajanaisesti tietoa
 + **Huhtikuu 2020** - Excalidraw alkoi sallimaan yhteisön laatimia ohjelman käyttöliittymän kielen käännöksiä.
 + **Toukokuu 2021** - Excalidraw+ ensimmäinen julkaisu. Se on ensisijaisesti yrityksille tarkoitettu maksullinen versio ohjelmasta, joka sisältää lisäominaisuuksia.
 + **Lokakuu 2021** - Integraatio Webexin kanssa.
-+ ** Kesäkuu 2025** - Excalidraw+ implementoi SOC2 (Service Organization Control Type 2)-tietoturvakehyksen.
++ **Kesäkuu 2025** - Excalidraw+ implementoi SOC2 (Service Organization Control Type 2)-tietoturvakehyksen.
 
 Ensimmäisen kahden vuoden jälkeen Excalidrawin kehitys on siirtynyt enemmän optimoinnin ja olemassa olevien ominaisuuksien parantamisen puolelle. Ohjelman maksullinen versio on viimeisen kolmen vuoden aikana saanut kehittyneempiä ominaisuuksia
 kuten ruudunjako, Powerpointin kaltaisten presentaatioiden luominen sekä tekoäly-ominaisuuksia.
@@ -57,7 +57,15 @@ Lisäksi ohjelman master haaraan tehdään aina noin ~20 - 30 committia joka kuu
 
 
 # Osallistuminen Projektiin
-<mark>TODO - Ville</mark>
+<br/><br/>
+Excalidrawin dokumentaatiosta löytyy [ohje](https://docs.excalidraw.com/docs/introduction/contributing) projektiin osallistumisesta.\
+Yleiset ohjeet osallistumisesta ovat seuraavat:
++ Excalidraw suosii pull requesteja. Jos haluaa esittää suurempia muutoksia, on avattava issue.
++ Excalidrawilla on [tiekartta](https://github.com/orgs/excalidraw/projects/3), jonka seuraamista vahvasti suositellaan, varsinkin uusille projektiin osallistujille.
++ Excalidrawille voi lähettää pull requestin joko GitHubissa oman haaran kautta tai [CodeSandboxin](https://codesandbox.io/p/sandbox/excalidraw-ehlz3?file=%2Fsrc%2FApp.tsx) kautta.
++ Pull Requesteissa on oltava etuliite, jotta niiden tarkastajalle selviää heti, mikä requestin tarkoitus on. Esimerkiksi "feat" etuliite viittaa uuteen ominaisuuteen kun taas "perf" viittaa toimintakykyä parantavaan koodinmuokkaukseen. 
++ Pull requestien testaus on automatisoitu. Testien tulokset suositellaan tarkastamaan ja niiden löytämiä bugeja korjaamaan. Uusia ominaisuuksia tai korjauksia lisätessä suositellaan myös uusien testien luomista.
++ Kielikäännösten on käännettävä vähintään 85% ohjelmasta, että ne hyväksytään.
 
 
 # Tekninen toteutus
