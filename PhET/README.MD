@@ -24,6 +24,8 @@ Saa käyttää vapaasti paitsi alkuperäinen tekijänoikeusilmoitus ja lisenssit
 Alkoi 2001 ja kehitys jatkuu edelleen. Merkittävimmät vuodet alun jälkeen ovat olleet 2016 ja 2026. Ylläpitää PhET tiimi, joka sijaitsee University of Colorado Boulder
 
 ## Osallistuminen projektiin:
+Projektiin voi osallistua myös PhETin ulkopuoliset kehittäjät. Osallistuminen tapahtuu GitHubin kautta. Projektin kehittäjille ei ole tiettyjä rooleja (muuta kuin itse PhET tiimi ja ulkopuoliset). PhET tiimi on vastuussa pull requestejen hyväksymisestä.
+Muutosten teko vaatii yleisiä työkaluja, kuten gitin ja IDE:n. Koodi on pääasiallisesti JavaScriptiä ja tarvitaan myös Node.js, npm ja Grunt ohjelman asentamiseen ja ajamiseen.
 
 ## Tekninen toteutus:
 ### Kielet
