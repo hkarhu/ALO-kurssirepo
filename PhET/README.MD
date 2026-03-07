@@ -20,7 +20,7 @@ Copyleft lisenssi. Saa käyttää vapaasti kaikkiin tarkoituksiin, mutta täytyy
 ### MIT
 Saa käyttää vapaasti paitsi alkuperäinen tekijänoikeusilmoitus ja lisenssiteksti on sisällytettävä kaikkiin kopioihin.
 ---
-## Projektin historia ja aktiivisuus:
+## Projektin historia ja aktiivisuus:  
 PhET- projekti käynnistettiin vuonna 2002 ja kehitys jatkuu edelleen. Merkittävimmät vuodet alun jälkeen ovat olleet 2016 ja 2026. Ylläpitää PhET tiimi, joka sijaitsee University of Colorado Boulder
 ---
 ## Osallistuminen projektiin:  
