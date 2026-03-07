@@ -47,12 +47,10 @@ Rakennettu oma SceneryStack kirjasto, jota käytetään grafiikan piirtämiseen,
 Matematiikka ja geometrialle on rakennettu Dot- ja Kite-kirjastot. 
 
 ## Ohjelmiston Käyttöönotto:
+Esimerkki kuinka saada toimimaan Rutherford- scattering- simulaatio 
+### Phet Simulation Rutherford- Scattering
 
-## Phet Simulation Rutherford- Scattering
-
-at [Phetsims GitHub](https://github.com/phetsims/rutherford-scattering?tab=readme-ov-file#rutherford-scattering)  
-
-How to get running from source code:
+[Phetsims GitHub](https://github.com/phetsims/rutherford-scattering?tab=readme-ov-file#rutherford-scattering)  
 
 1. Tee Git- kansio
 2. Kloonaa seuraavat repositoryt kansioon
