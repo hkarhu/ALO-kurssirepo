@@ -57,7 +57,6 @@ Lisäksi ohjelman master haaraan tehdään aina noin ~20 - 30 committia joka kuu
 
 
 # Osallistuminen Projektiin
-<br/><br/>
 Excalidrawin dokumentaatiosta löytyy [ohje](https://docs.excalidraw.com/docs/introduction/contributing) projektiin osallistumisesta.\
 Yleiset ohjeet osallistumisesta ovat seuraavat:
 + Excalidraw suosii pull requesteja. Jos haluaa esittää suurempia muutoksia, on avattava issue.
