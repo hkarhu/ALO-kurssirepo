@@ -9,4 +9,5 @@ PhET- simulaatiot toimivat selaimessa tai paikallisesti. Simulaatiot toimivat p�
 
 PhET- simulaatioita k채ytet채채n p채채asiassa opetuksen yhteydess채 eri fysiikan teorioiden ja simulaatioiden opetukseksessa. Esimerkiksi UEF:n fysiikan kursseilla PhET- simulaatioita on k채ytetty esim. Rutherford- Scatteringing kuvaamiseen.
 
-![alt text](image-1.png)
+![alt text](phetsimimg.png)
+
