@@ -57,5 +57,10 @@ Esityksen maksimipituus 10mins.
 | asdf                | Portage                                    | Paketinhallintatyökalu                                                                              | A                    |
 | x                   | [Brave](Brave/README.md)                   | Brave on yksityisyyttä korostava verkkoselain, jonka tarkoitus on tarjota nopea ja turvallinen selauskokemus estämällä seuranta ja mainokset oletusarvoisesti. | V                    |
 | ta		      | Excalidraw Whiteboard [Excalidraw](https://github.com/excalidraw/excalidraw)		   | Virtuaalinen valkotaulusovellus	|	V	|
-| K- Ryhmä            | PhET simulaatiot: https://github.com/phetsims | Simulaatio alusta eri luonnontieteille | C |
+| K- Ryhmä            | PhET simulaatiot: https://github.com/phetsims           | Simulaatio alusta eri luonnontieteille | C |
+| JAE                 | Godot ((https://github.com/godotengine/godot)) | Pelimoottori | D  |
+| PS1 Emu             | DuckStation [DuckStation](DuckStation/README.md) | Sony PlayStation konsolin emulaattori | V | 
+| ryhma               | [FFmpeg](FFmpeg/README.md) | matalan tason mediatyökalu projekti | B |
+| 34                  | [Shotcut](https://github.com/mltframework/shotcut) | Mediaeditointiohjelma | D |
+| Ryhmä 99            | [Blender](https://projects.blender.org/blender/blender) | 3D-mallinnusohjelmisto | V |
 
