@@ -63,4 +63,3 @@ Esityksen maksimipituus 10mins.
 | ryhma               | [FFmpeg](FFmpeg/README.md) | matalan tason mediatyökalu projekti | B |
 | 34                  | [Shotcut](https://github.com/mltframework/shotcut) | Mediaeditointiohjelma | D |
 | Ryhmä 99            | [Blender](https://projects.blender.org/blender/blender) | 3D-mallinnusohjelmisto | V |
-
