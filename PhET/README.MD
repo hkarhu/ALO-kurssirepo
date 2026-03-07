@@ -12,7 +12,7 @@ PhET- simulaatioita käytetään pääasiassa opetuksen yhteydessä eri fysiikan
 ![alt text](phetsimimg.png)
 
 ## Lisenssi:
-Simulaatiot on GPLv3-Licenssillä ja muut uudelleenkäytettävät kirjastot MIT lisenssillä.
+Simulaatiot on GPLv3-Licenssillä ja muut uudelleenkäytettävät kirjastot MIT- lisenssillä.
 
 ### GPLv3
 Copyleft lisenssi. Saa käyttää vapaasti kaikkiin tarkoituksiin, mutta täytyy julkaista samalla lisenssillä.
