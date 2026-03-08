@@ -4,9 +4,9 @@
   <img src="https://github.com/user-attachments/assets/8056ab33-5138-4ace-8a24-22969e3992e7" width="900">
 </p>
 
-<mark>TODO - Timi</mark>
 
-**Excalidraw** on avoimen lähdekoodin selainpohjainen piirto- ja kaaviotyökalu. Sen pääasiallinen tarkoitus on mahdollistaa käsin piirretyn näköisten kaavioiden...
+**Excalidraw** on avoimen lähdekoodin selainpohjainen piirto- ja kaaviotyökalu. Sen pääasiallinen tarkoitus on mahdollistaa käsin piirretyn näköisten kaavioiden, 
+luonnosten ja miellekarttojen nopea ja helppo luominen.
 
 ### Miten toimii
 
@@ -15,13 +15,23 @@ Excalidraw toimii selaimessa ilman erillistä asennusta. Piirros tallentuu raken
 Sovellus tukee myös reaaliaikaista yhteistyötä, jolloin useampi käyttäjä voi työstää samaa piirustusta samanaikaisesti verkkoyhteyden kautta.
 
 ### Missä käytössä
+Excalidrawia käytetään erityisesti opetuksessa. Se toimii hyvin valkotauluna lähi- ja etäopetuksessa, johon opettajat voivat piirtää ja hahmotella opetettavaa asiaa ja tehdä miellekarttoja. Ohjelma ei vaadi kirjautumista, jolloin kuka tahansa voi käyttää Excalidrawia. Opetuksen lisäksi sitä hyödynnetään myös IT-alalla esimerkiksi ohjelmistojen ja käyttöliittymien suunnittelussa.
 
 
 
 
 
 # Lisenssi
-<mark>TODO - Timi</mark>
+Excalidraw on julkaistu MIT-lisenssillä. Se on yksi sallivimmista lisensseistä.
+
+Lisenssi on erittäin vapaa. Käyttäjä saa lähes rajoittamattomat oikeudet ohjelmiston käyttöön.
+Koodia saa kopioida ja muokata vapaasti, sekä julkaista ja jakaa eteenpäin.
+
+Rajoitukset:
+Ainoa rajoitus on, että kun koodia jakaa niin täytyy kopio MIT-lisenssistä säilyttää mukana.
+Lisenssiin kuuluu ehto, että ohjelmisto tarjotaan sellaisenaan. Eli ohjelmiston tekijät eivät anna mitään takuuta
+ohjelmiston toiminnasta eivätkä ole korvausvelvollisia, jos ohjelmisto aiheuttaa käyttäjälle vahinkoa.
+
 
 # Projektin Historia ja Aktiivisuus
 
