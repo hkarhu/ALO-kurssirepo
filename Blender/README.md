@@ -1,11 +1,13 @@
 ## Blender
-
+![Blender logo](blenderlogo.png)
 ### Ohjelma
 
 - **Nimi:** Blender
 - **Kuvaus:** 3D-mallinnusohjelmisto, jolla voi mm. luoda 3D-malleja sekä mallien ”rigging/skinning”, animoida (2D/3D, luoda efektejä (Vesi, savu…yms.), renderöidä kuvia/videoita.
 - **Toimintaperiaate:** Blenderin voi ladata valmiiksi toimivana ohjelmana. Ohjelmassa luodaan malleja ohjelman näkymässä käyttäen erilaisia työkaluja.
 - **Käyttökohteet:** Blenderiä käyttävät mm. 3D-mallintajat, graafikot, pelikehittäjät, animaattorit yms. Käyttökohteita on lukuisia. Blenderiä käyttävät niin harrastelijat kuin isommat (peli)yhtiöt.
+
+![Blender nakyma](blenderkuva.jpg)
 
 ### Lisenssi
 
