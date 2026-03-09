@@ -55,25 +55,6 @@ Lisäksi käyttäjille on luotu IRC-kanava, jossa voi keskustella projektiin osa
 
 <br>
 
-## Lisenssi
-
-Emulaattorin lisenssi on GPLv2+ eli [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) tai myöhempi versio GPL-lisenssistä. Käytännössä käyttäjillä on aina oikeus hyödyntää ohjelmistoa GPLv2-lisenssin ehdoin, joihin lukeutuvat seuraavat oikeudet ja vastuut:
-
-* oikeus kopioida, levittää ja muokata ohjelmistoa
-
-* oikeus vapautua vastuusta ja korvausvelvollisuudesta, jos tästä ei ole erikseen sovittu
-
-* oikeus pyytää maksu takuun tarjoamisesta ja ohjelmiston fyysisestä levittämisestä
-
-* vastuu julkaista muokattu ohjelmisto samalla lisenssillä kuin alkuperäinen ohjelmisto (ns. copyleft-periaate)
-
-* vastuu tuoda ohjelmiston lähdekoodi vapaasti saataville
-
-* vastuu ilmaista, mitä alkuperäisen ohjelmiston tiedostoja on muokattu ja mikä on muokkausten päivämäärä.
-
-Vastauksia lisenssitekstiä koskeviin tulkintakysymyksiin löytyy [Frequently Asked Questions about version 2 of the GNU GPL](https://www.gnu.org/licenses/old-licenses/gpl-2.0-faq.html) -tekstistä.
-
-
 ## Projektin Historia ja Aktiivisuus
 
 ### Projektin historia
@@ -123,11 +104,26 @@ Lisäksi emulaattorin toteutuksessa on käytetty muita välineitä kuten
 - **[Buildbot](https://dolphin.ci)** testaamisen automatisointiin
 - **[Transifex](https://explore.transifex.com/dolphinemu/dolphin-emu/)** Dolphinin eri kielille kääntämisen alustana
 
-- A
-- B
-- C
+<br>
 
-Kuvaile lyhyesti, mitä kieliä, protokollia ja välineitä käytetään ohjelmiston teknisessä toteutuksessa. Tämä voi auttaa ymmärtämään, millainen osaaminen vaaditaan mahdollisiin muokkauksiin tai konfiguraatioihin.
+## Lisenssi
+
+Emulaattorin lisenssi on GPLv2+ eli [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) tai myöhempi versio GPL-lisenssistä. Käytännössä käyttäjillä on aina oikeus hyödyntää ohjelmistoa GPLv2-lisenssin ehdoin, joihin lukeutuvat seuraavat oikeudet ja vastuut:
+
+* oikeus kopioida, levittää ja muokata ohjelmistoa
+
+* oikeus vapautua vastuusta ja korvausvelvollisuudesta, jos tästä ei ole erikseen sovittu
+
+* oikeus pyytää maksu takuun tarjoamisesta ja ohjelmiston fyysisestä levittämisestä
+
+* vastuu julkaista muokattu ohjelmisto samalla lisenssillä kuin alkuperäinen ohjelmisto (ns. copyleft-periaate)
+
+* vastuu tuoda ohjelmiston lähdekoodi vapaasti saataville
+
+* vastuu ilmaista, mitä alkuperäisen ohjelmiston tiedostoja on muokattu ja mikä on muokkausten päivämäärä.
+
+Vastauksia lisenssitekstiä koskeviin tulkintakysymyksiin löytyy [Frequently Asked Questions about version 2 of the GNU GPL](https://www.gnu.org/licenses/old-licenses/gpl-2.0-faq.html) -tekstistä.
+
 
 ## Ohjelmiston käyttöönotto
 
