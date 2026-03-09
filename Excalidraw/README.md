@@ -90,24 +90,20 @@ Yleiset ohjeet osallistumisesta ovat seuraavat:
 
 Excalidraw on toteutettu pääosin TypeScriptillä. TypeScript on JavaScriptiin perustuva ohjelmointikieli, joka lisää siihen staattisen tyypityksen, eli mahdollisuuden määrittää muuttujille ja funktioille etukäteen niiden tyypit. 
 
-Käyttöliittymä on rakennettu React-kirjaston avulla.
-
 ### Protokollat
 - **HTTP / HTTPS** (sovelluksen ja resurssien lataaminen selaimeen)
 - **WebSocket** (reaaliaikainen yhteistyö ja tiedonsiirto)
 
 Sovellus toimii selaimessa ja hyödyntää standardeja web-protokollia tiedonsiirtoon ja yhteistyöominaisuuksiin.
+Käyttöliittymä on rakennettu React-kirjaston avulla.
 
 ### Välineet
 - **Node.js** (ajoympäristö ja kehityspalvelin)
 - **Yarn** (paketinhallinta ja riippuvuuksien hallinta)
 - **Git** (versionhallinta)
-- **React** (käyttöliittymäkirjasto)
 - **Vite** (kehitys- ja build-työkalu)
 
-Edellä mainitut työkalut mahdollistavat projektin kehittämisen, riippuvuuksien hallinnan, sovelluksen suorittamisen paikallisesti sekä tuotantoversion rakentamisen.
-
-
+_Edellä on esitetty projektin keskeisimmät teknologiat. Täydellinen lista käytetyistä riippuvuuksista ja työkaluista löytyy projektin ```package.json```-tiedostosta._
 
 
 
