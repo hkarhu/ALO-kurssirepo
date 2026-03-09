@@ -30,6 +30,7 @@ Esityksen maksimipituus 10mins.
 | ryhma               | TES-aro       |
 | 34                  | opa-git, LillaNudde     |
 | Ryhmä 99            | tailow, TommiNeuvonen              |
+| Ryhmä ryhmä	      | ogkala				   |
 
 ### Esityspäivät:
 
@@ -63,3 +64,4 @@ Esityksen maksimipituus 10mins.
 | ryhma               | [FFmpeg](FFmpeg/README.md) | matalan tason mediatyökalu projekti | B |
 | 34                  | [Shotcut](https://github.com/mltframework/shotcut) | Mediaeditointiohjelma | D |
 | Ryhmä 99            | [Blender](https://projects.blender.org/blender/blender) | 3D-mallinnusohjelmisto | V |
+| Ryhmä ryhmä	      | [wpa_supplicant](https://git.w1.fi/cgit/hostap/) | Implementaatio IEEE 801.11i supplicantista| C |
