@@ -59,12 +59,3 @@ $ `make`
 
 ---
 *Template generated using GPT-3.5*
-
-
-
-
-### Osallistuminen Projektiin:
-Selvitä, miten voitte osallistua valitsemaanne projektiin. Tämä voi vaihdella projektista riippuen, mutta yleisesti voitte selvittää seuraavat asiat:
-- "Contribution model": Miten projektiin voi osallistua? Onko olemassa tiettyjä rooleja tai vastuita?
-- Kuinka tehdä/julkaista muutoksia: Mitä työkaluja ja menettelytapoja tarvitaan ohjelmiston muokkaamiseen ja ehdotusten tekemiseen?
-
