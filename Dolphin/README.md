@@ -27,6 +27,31 @@ Dolphinia käytetään yleensä:
 
 ---
 
+## Osallistuminen projektiin
+
+Dolphinin kehitykseen osallistuminen tapahtuu pääasiassa virallisten GitHub sivun kautta, jossa on ohjeita osallistumineen. 
+https://github.com/dolphin-emu/dolphin?tab=contributing-ov-file
+Yllä Dolphinin GitHubissa olevat ohjeet osallistumiseen. Projektiin voi osallistua esimerkiksi:
+- Pull requestejen
+- Bugiseurannan
+- Wiki
+- Foorumit
+- Transifexiin (Kääntö muille kielille)
+Ohjelmistoon osallistuminen ei siis rajoitu pelkän ohjelmakoodin luontiin vaan se tarjoaa eri tapoja osallistua.
+
+Dolphinissa käytetään avointa yhteisömallia. Kehittäjät tekevät oman forkin projektista ja muokkaavat sitä. Sitten oma haara ehdotetaan takaisin projektiin pull requestilla.
+Koodintekoon on oma ohjeistus, jossa on kriteerit koodaustyylille, automaattiselle muotoilulle ja ohjeita noudattavat pull requestit yhdistyy projektiin isommalla todennäköisyydellä.
+
+Uuden osallistujan ei kannata heti mennä syvään päätyyn projektiin osallistumisessa vaan voi aloittaa esimerkiksi bugikorjauksista, käyttöliittymän parantamisesta, dokumentaation parantimsessa, eri käännösten luomisessa.
+Koodimuutoksen tapauksessa aluksi kloonataan repositorio, haetaan aliprojekti, tehdään ja testataan muutos omalla koneella omassa kehitysympäristössä, tarkistetaan koodi sääntöjen avulla ja lopuksi avataan pull request GitHubiin.
+Dolphinin sivuilta näkee esimerkiksi että koodityylissä korostetaan clang-format muotoilua, välilyönneillä sisennystä ja C++20 koodityyliä.
+
+Projektissa on myös osio "Trade secrets" jossa on juridisia ja eettiäsiä rajoja projektiin osallistumiselle. Jos henkilö tietää mitään salassapitosopimuksen alaista tietoa esimerkiksi Nintendon laitteista niin projektiin ei voi osallistua.
+Näitä on GameCube, Wii ja TriForce.
+
+Lisäksi käyttäjille on luotu IRC-kanava, jossa voi keskustella projektiin osallistumisesta.
+
+---
 
 <br>
 
