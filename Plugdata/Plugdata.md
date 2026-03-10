@@ -80,4 +80,4 @@ Installer
 ### Niinkun aiemmin mainittu projektissa on sisällä monia muita projekteja komponenteina tai hyödynnyskäytössä. Plugdata voisi pitää vähän niinkuin modernina käyttöympäristönä monille muillekkin teknologoille. Se yhdistää siis todella monia avoimenlähdekoodin ohjelmistoja "uuden katon" alle.
 
 
-### DEMO näytin sen tallennuksessa
+### DEMO näytin sen tallennuksessa.
