@@ -54,7 +54,7 @@ Esityksen maksimipituus 10mins.
 | CataclysmDDA        | Cataclysm: Dark Days Ahead [CataclysmDDA](CataclysmDDA/README.md) | Avoimen lähdekoodin selviytymisroolipeli | V |
 | NN                  | Kdenlive [Kdenlive](Kdenlive/README.md)    | Videoeditointiohjelma | V |
 | Ryhmä Y             | VLC mediaplayer (https://github.com/videolan/vlc) | Mediasoitinohjelmisto    | C           |
-| asdf                | [Portage] (https://codeberg.org/gentoo/portage)                                    | Paketinhallintatyökalu                                                                              | A                    |
+| asdf                | Portage [Portage](https://codeberg.org/gentoo/portage)                                    | Paketinhallintatyökalu                                                                              | A                    |
 | x                   | [Brave](Brave/README.md)                   | Brave on yksityisyyttä korostava verkkoselain, jonka tarkoitus on tarjota nopea ja turvallinen selauskokemus estämällä seuranta ja mainokset oletusarvoisesti. | V                    |
 | ta		      | Excalidraw Whiteboard [Excalidraw](https://github.com/excalidraw/excalidraw)		   | Virtuaalinen valkotaulusovellus	|	V	|
 | K- Ryhmä            | PhET simulaatiot: https://github.com/phetsims           | Simulaatio alusta eri luonnontieteille | C |
