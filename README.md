@@ -5,32 +5,32 @@ Joka päivälle on mahdollista varata 8 esitystä. Päivämäärätoiveet lukkiu
 Esityksen maksimipituus 10mins.
 
 ## Ryhmät
-                                 |
-| Ryhmä               | Ryhmän jäsenet                     |
-|---------------------|------------------------------------|
-| ryhmän nimi         | ryhmän, jäsenten, git-hub tunnarit |
-| ryhmä47             | AarniLeh, LukkaJo, SairainE        |
-| ryhmä xyz           | FransJuhaniHietaniva, mrduckos, jopehe |
-| Emu                 | AslaAsla, HenryLaine, jonttuXD     |
-| Ryhmä 3             | roko02, Eme-desing                 |
-| NinJas              | NinaTakkunen, jjjasminl |
-| Ryhmä 12            | Topi-M                             |
-| Project-shiny        |jennijohansson, Joonas3, oltsule, tomivais|
-| OpenWrt-ryhmä       | Jukknevala, Laszzee11,Oijoijoijoijoijoijoijoi |
-| Ryhmä with no name  | pasuunapaholainen                  |
-| CataclysmDDA        | joojoel, Sipulimies, Kaaku1 |
-| NN                  | nuuttinyyssonen |
-| Ryhmä Y             | jjuliaj, WilmaVM, Kultaharkko      |
-| asdf                | netlaitinet                            |
-| x           | lassijar, KukkonenJussi                |
-| ta			| VilleR-GitHub, LeeviAsikainen, timbzi	|
-| K- Ryhmä			| Lukavarin, KurriRyka	|
-| JAE                 | Jarno M, Antti E, Eero V           |
-| PS1 Emu             | TheBoniestOne |
-| ryhma               | TES-aro       |
-| 34                  | opa-git, LillaNudde     |
-| Ryhmä 99            | tailow, TommiNeuvonen              |
-| Ryhmä wpa_supplicant| ogkala				   |
+||
+| Ryhmä                | Ryhmän jäsenet                                |
+|----------------------|-----------------------------------------------|
+| ryhmän nimi          | ryhmän, jäsenten, git-hub tunnarit            |
+| ryhmä47              | AarniLeh, LukkaJo, SairainE                   |
+| ryhmä xyz            | FransJuhaniHietaniva, mrduckos, jopehe        |
+| Emu                  | AslaAsla, HenryLaine, jonttuXD                |
+| Ryhmä 3              | roko02, Eme-desing                            |
+| NinJas               | NinaTakkunen, jjjasminl                       |
+| Ryhmä 12             | Topi-M                                        |
+| Project-shiny        | jennijohansson, Joonas3, oltsule, tomivais    |
+| OpenWrt-ryhmä        | Jukknevala, Laszzee11,Oijoijoijoijoijoijoijoi |
+| Ryhmä with no name   | pasuunapaholainen                             |
+| CataclysmDDA         | joojoel, Sipulimies, Kaaku1                   |
+| NN                   | nuuttinyyssonen                               |
+| Ryhmä Y              | jjuliaj, WilmaVM, Kultaharkko                 |
+| asdf                 | netlaitinet                                   |
+| x                    | lassijar, KukkonenJussi                       |
+| ta                   | VilleR-GitHub, LeeviAsikainen, timbzi         |
+| K- Ryhmä             | Lukavarin, KurriRyka                          |
+| JAE                  | Jarno M, Antti E, Eero V                      |
+| PS1 Emu              | TheBoniestOne                                 |
+| ryhma                | TES-aro                                       |
+| 34                   | opa-git, LillaNudde                           |
+| Ryhmä 99             | tailow, TommiNeuvonen                         |
+| Ryhmä wpa_supplicant | ogkala                                        |
 
 ### Esityspäivät:
 
@@ -54,7 +54,7 @@ Esityksen maksimipituus 10mins.
 | CataclysmDDA        | Cataclysm: Dark Days Ahead [CataclysmDDA](CataclysmDDA/README.md) | Avoimen lähdekoodin selviytymisroolipeli | V |
 | NN                  | Kdenlive [Kdenlive](Kdenlive/README.md)    | Videoeditointiohjelma | V |
 | Ryhmä Y             | VLC mediaplayer (https://github.com/videolan/vlc) | Mediasoitinohjelmisto    | C           |
-| asdf                | Portage                                    | Paketinhallintatyökalu                                                                              | A                    |
+| asdf                | Portage [Portage](https://codeberg.org/gentoo/portage)                                    | Paketinhallintatyökalu                                                                              | A                    |
 | x                   | [Brave](Brave/README.md)                   | Brave on yksityisyyttä korostava verkkoselain, jonka tarkoitus on tarjota nopea ja turvallinen selauskokemus estämällä seuranta ja mainokset oletusarvoisesti. | V                    |
 | ta		      | Excalidraw Whiteboard [Excalidraw](https://github.com/excalidraw/excalidraw)		   | Virtuaalinen valkotaulusovellus	|	V	|
 | K- Ryhmä            | PhET simulaatiot: https://github.com/phetsims           | Simulaatio alusta eri luonnontieteille | C |
